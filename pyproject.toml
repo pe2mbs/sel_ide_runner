@@ -26,14 +26,14 @@ dependencies = [
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/pe2mbs/pykeystore"
-"Bug Tracker" = "https://github.com/pe2mbs/pykeystore/issues"
+"Homepage" = "https://github.com/pe2mbs/sel_ide_runner"
+"Bug Tracker" = "https://github.com/pe2mbs/sel_ide_runner/issues"
 
 
 [tool.setuptools.packages.find]
 # All the following settings are optional:
 where = ["."]  # ["."] by default
-include = ["pykeystore"]  # ["*"] by default
+include = ["sel_ide_runner"]  # ["*"] by default
 exclude = []  # empty by default
 namespaces = true  # true by default
 
@@ -47,7 +47,7 @@ project-url = "https://github.com/pe2mbs/sel_ide_runner"
 theme = "readthedocs"
 html-output = "docs/api"
 intersphinx = ["https://docs.python.org/3/objects.inv"]
-add-package = ["pykeystore"]
+add-package = ["sel_ide_runner"]
 docformat = "restructuredtext"
 verbose = 1
 warnings-as-errors = true

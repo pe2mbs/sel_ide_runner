@@ -1,0 +1,1056 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+          "DTD/xhtml1-strict.dtd">
+<html>
+  
+
+  <head>
+    
+    <title>sel_ide_runner.selenium_emu.SeleniumLibrary</title>
+    <meta name="generator" content="pydoctor 22.9.1"> 
+        
+    </meta>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1" />
+    <link rel="stylesheet" type="text/css" href="apidocs.css" />
+    <link rel="stylesheet" type="text/css" href="readthedocstheme.css" />
+    <link rel="stylesheet" type="text/css" href="extra.css" />
+</head>
+
+  <body>
+
+    
+
+    <nav class="navbar navbar-default mainnavbar">
+      
+  
+  <div class="container-fluid">
+
+
+    <div class="navbar-header">
+      
+      <div class="navlinks">
+        <span class="navbar-brand">
+          <a href="https://github.com/pe2mbs/sel_ide_runner" class="projecthome">sel_ide_runner</a> <a href="index.html">API Documentation</a>
+        </span>
+
+        <a href="moduleIndex.html">
+          Modules
+        </a>
+
+        <a href="classIndex.html">
+          Classes
+        </a>
+
+        <a href="nameIndex.html">
+          Names
+        </a>
+
+        <div id="search-box-container">
+          <div class="input-group">
+            <input id="search-box" type="search" name="search-query" placeholder="Search..." aria-label="Search" minlength="2" class="form-control" autocomplete="off" />
+            
+            <span class="input-group-btn">
+              <a style="display: none;" class="btn btn-default" id="search-clear-button" title="Clear" onclick="clearSearch()"><img src="fonts/x-circle.svg" alt="Clear" /></a>
+              <a class="btn btn-default" id="search-help-button" title="Help" onclick="toggleSearchHelpText()"><img src="fonts/info.svg" alt="Help" /></a>
+            </span>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+    
+        <!-- Side navigation -->
+      <div class="sidebarcontainer">
+        <nav class="sidebar">
+  
+
+  <div>
+
+      <div class="thingTitle">
+        <span>Class</span>
+        <code class="thisobject"><a href="sel_ide_runner.selenium_emu.SeleniumLibrary.html" class="internal-link" title="This class"><wbr></wbr>Selenium<wbr></wbr>Library</a></code> 
+      </div>
+      
+      <div>
+        
+
+        
+         
+
+        
+        
+
+        <div class="childrenKindTitle">Methods</div>
+        <ul>
+    
+    <li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#__init__" class="internal-link" title="sel_ide_runner.selenium_emu.SeleniumLibrary.__init__">__init__</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#capture_page_screenshot" class="internal-link" title="sel_ide_runner.selenium_emu.SeleniumLibrary.capture_page_screenshot">capture<wbr></wbr>_page<wbr></wbr>_screenshot</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#failure_occurred" class="internal-link" title="sel_ide_runner.selenium_emu.SeleniumLibrary.failure_occurred">failure<wbr></wbr>_occurred</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#register_driver" class="internal-link" title="sel_ide_runner.selenium_emu.SeleniumLibrary.register_driver">register<wbr></wbr>_driver</a></code>
+            </div>
+        
+
+    </li><li class="private">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#_parse_listener" class="internal-link" title="sel_ide_runner.selenium_emu.SeleniumLibrary._parse_listener">_parse<wbr></wbr>_listener</a></code>
+            </div>
+        
+
+    </li><li class="private">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#_resolve_screenshot_root_directory" class="internal-link" title="sel_ide_runner.selenium_emu.SeleniumLibrary._resolve_screenshot_root_directory">_resolve<wbr></wbr>_screenshot<wbr></wbr>_root<wbr></wbr>_directory</a></code>
+            </div>
+        
+
+    </li><li class="private">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#_string_to_modules" class="internal-link" title="sel_ide_runner.selenium_emu.SeleniumLibrary._string_to_modules">_string<wbr></wbr>_to<wbr></wbr>_modules</a></code>
+            </div>
+        
+
+    </li>
+</ul> 
+
+        
+         
+
+        <div class="childrenKindTitle">Attributes</div>
+        <ul>
+    
+    <li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#implicit_wait" class="internal-link" title="sel_ide_runner.selenium_emu.SeleniumLibrary.implicit_wait">implicit<wbr></wbr>_wait</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#run_on_failure_keyword" class="internal-link" title="sel_ide_runner.selenium_emu.SeleniumLibrary.run_on_failure_keyword">run<wbr></wbr>_on<wbr></wbr>_failure<wbr></wbr>_keyword</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#screenshot_root_directory" class="internal-link" title="sel_ide_runner.selenium_emu.SeleniumLibrary.screenshot_root_directory">screenshot<wbr></wbr>_root<wbr></wbr>_directory</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#speed" class="internal-link" title="sel_ide_runner.selenium_emu.SeleniumLibrary.speed">speed</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#timeout" class="internal-link" title="sel_ide_runner.selenium_emu.SeleniumLibrary.timeout">timeout</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#driver" class="internal-link" title="sel_ide_runner.selenium_emu.SeleniumLibrary.driver">driver</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#VariableStore" class="internal-link" title="sel_ide_runner.selenium_emu.SeleniumLibrary.VariableStore"><wbr></wbr>Variable<wbr></wbr>Store</a></code>
+            </div>
+        
+
+    </li><li class="private">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#__variableManager" class="internal-link" title="sel_ide_runner.selenium_emu.SeleniumLibrary.__variableManager">__variable<wbr></wbr>Manager</a></code>
+            </div>
+        
+
+    </li><li class="private">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#_drivers" class="internal-link" title="sel_ide_runner.selenium_emu.SeleniumLibrary._drivers">_drivers</a></code>
+            </div>
+        
+
+    </li><li class="private">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#_element_finder" class="internal-link" title="sel_ide_runner.selenium_emu.SeleniumLibrary._element_finder">_element<wbr></wbr>_finder</a></code>
+            </div>
+        
+
+    </li><li class="private">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#_event_firing_webdriver" class="internal-link" title="sel_ide_runner.selenium_emu.SeleniumLibrary._event_firing_webdriver">_event<wbr></wbr>_firing<wbr></wbr>_webdriver</a></code>
+            </div>
+        
+
+    </li><li class="private">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#_running_keyword" class="internal-link" title="sel_ide_runner.selenium_emu.SeleniumLibrary._running_keyword">_running<wbr></wbr>_keyword</a></code>
+            </div>
+        
+
+    </li>
+</ul> 
+
+        
+         
+        
+      </div>
+  </div><div>
+
+      <div class="thingTitle">
+        <span>Module</span>
+        <code><a href="sel_ide_runner.selenium_emu.html" class="internal-link" title="The parent of this class">selenium<wbr></wbr>_emu</a></code> 
+      </div>
+      
+      <div>
+        
+
+        
+         
+
+        <div class="childrenKindTitle">Classes</div>
+        <ul>
+    
+    <li class=" thisobject">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="sel_ide_runner.selenium_emu.SeleniumLibrary.html" class="internal-link" title="sel_ide_runner.selenium_emu.SeleniumLibrary"><wbr></wbr>Selenium<wbr></wbr>Library</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="sel_ide_runner.selenium_emu.VariableManager.html" class="internal-link" title="sel_ide_runner.selenium_emu.VariableManager"><wbr></wbr>Variable<wbr></wbr>Manager</a></code>
+            </div>
+        
+
+    </li>
+</ul>
+
+        
+         
+
+        
+         
+
+        
+         
+
+        
+         
+        
+      </div>
+  </div>
+
+</nav>
+        <!-- No sidebar toggle for read the docs theme, the sidebar is always
+          visible when the screen is width enough.
+        -->
+      </div>
+
+    </nav>
+    
+    <div class="container-fluid">
+
+      <div id="main" class="">
+        
+
+        
+
+        <div id="search-results-container" style="display: none;">
+        
+          <div id="search-buttons">
+            <span class="label label-default" id="search-docstrings-button">
+            <label class="checkbox-inline">
+              <input type="checkbox" id="toggle-search-in-docstrings-checkbox" value="false" onclick="toggleSearchInDocstrings()">
+                search in docstrings
+              </input>
+            </label>
+            </span>
+            
+          </div>
+          
+          <noscript>
+              <h1>Cannot search: JavaScript is not supported/enabled in your browser.</h1>
+          </noscript>
+  
+          <div class="hint" id="search-help-box">
+            <p class="rst-last">
+        
+              Search bar offers the following options:
+              <ul>   
+                  <li>
+                    <strong>Term presence.</strong> The below example searches for documents that 
+                      must contain “foo”, might contain “bar” and must not contain “baz”: <code>+foo bar -baz</code>
+                  </li> 
+  
+                  <li>
+                    <strong>Wildcards.</strong> The below example searches for documents with words beginning with “foo”: <code>foo*</code>
+                  </li> 
+  
+                  <li>
+                    <strong>Search in specific fields.</strong> The following search matches all objects 
+                    in "twisted.mail" that matches “search”: <code>+qname:twisted.mail.* +search</code>
+  
+                    <p>
+                      Possible fields: 'name', 'qname' (fully qualified name), 'docstring', and 'kind'.
+                      Last two fields are only applicable if "search in docstrings" is enabled.
+                    </p>
+                  </li>
+  
+                  <li>
+                    <strong>Fuzzy matches.</strong> The following search matches all documents 
+                    that have a word within 1 edit distance of “foo”: <code>foo~1</code>
+                  </li>
+              </ul>
+  
+            </p>
+          </div>
+  
+          <div id="search-status"> </div>
+  
+          <div class="warning" id="search-warn-box" style="display: none;">
+            <p class="rst-last"><span id="search-warn"></span></p>
+          </div>
+  
+          <table id="search-results">
+            <!-- Filled dynamically by JS -->
+          </table>
+          
+          <div style="margin-top: 8px;">
+            <p>Results provided by <a href="https://lunrjs.com">Lunr.js</a></p>
+          </div>
+        </div>
+
+        <div class="page-header">
+          <h1 class="class"><code><code><a href="index.html" class="internal-link">sel_ide_runner</a></code><wbr></wbr>.<code><a href="sel_ide_runner.selenium_emu.html" class="internal-link" title="sel_ide_runner.selenium_emu">selenium_emu</a></code><wbr></wbr>.<code><a href="sel_ide_runner.selenium_emu.SeleniumLibrary.html" class="internal-link" title="sel_ide_runner.selenium_emu.SeleniumLibrary">SeleniumLibrary</a></code></code></h1>
+          <div id="showPrivate">
+            <button class="btn btn-link" onclick="togglePrivate()">Toggle Private API</button>
+          </div>
+        </div>
+
+        <div class="categoryHeader">
+          class documentation
+        </div>
+
+        <div class="extrasDocstring">
+          <p><code><span class="py-keyword">class</span> <span class="py-defname">SeleniumLibrary</span>(AlertKeywords, CookieKeywords, ElementKeywords, FormElementKeywords, FrameKeywords, JavaScriptKeywords, RunOnFailureKeywords, ScreenshotKeywords, SelectElementKeywords, TableElementKeywords, WaitingKeywords):</code></p>
+          <p><a href="classIndex.html#sel_ide_runner.selenium_emu.SeleniumLibrary">View In Hierarchy</a></p>
+        </div>
+
+        <div class="moduleDocstring">
+          <div><p class="undocumented">Undocumented</p></div>
+        </div>
+
+        <div id="splitTables">
+          <table class="children sortable" id="id11">
+  
+  
+  <tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#__init__" class="internal-link" title="sel_ide_runner.selenium_emu.SeleniumLibrary.__init__">__init__</a></code></td>
+    <td>SeleniumLibrary can be imported with several optional arguments.</td>
+  </tr><tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#capture_page_screenshot" class="internal-link" title="sel_ide_runner.selenium_emu.SeleniumLibrary.capture_page_screenshot">capture<wbr></wbr>_page<wbr></wbr>_screenshot</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#failure_occurred" class="internal-link" title="sel_ide_runner.selenium_emu.SeleniumLibrary.failure_occurred">failure<wbr></wbr>_occurred</a></code></td>
+    <td>Method that is executed when a SeleniumLibrary keyword fails.</td>
+  </tr><tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#register_driver" class="internal-link" title="sel_ide_runner.selenium_emu.SeleniumLibrary.register_driver">register<wbr></wbr>_driver</a></code></td>
+    <td>Add's a <code><a href="sel_ide_runner.selenium_emu.SeleniumLibrary.html#driver" class="internal-link" title="sel_ide_runner.selenium_emu.SeleniumLibrary.driver">driver</a></code> to the library WebDriverCache.</td>
+  </tr><tr class="instancevariable">
+    
+    <td>Instance Variable</td>
+    <td><code><a href="#implicit_wait" class="internal-link" title="sel_ide_runner.selenium_emu.SeleniumLibrary.implicit_wait">implicit<wbr></wbr>_wait</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="instancevariable">
+    
+    <td>Instance Variable</td>
+    <td><code><a href="#run_on_failure_keyword" class="internal-link" title="sel_ide_runner.selenium_emu.SeleniumLibrary.run_on_failure_keyword">run<wbr></wbr>_on<wbr></wbr>_failure<wbr></wbr>_keyword</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="instancevariable">
+    
+    <td>Instance Variable</td>
+    <td><code><a href="#screenshot_root_directory" class="internal-link" title="sel_ide_runner.selenium_emu.SeleniumLibrary.screenshot_root_directory">screenshot<wbr></wbr>_root<wbr></wbr>_directory</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="instancevariable">
+    
+    <td>Instance Variable</td>
+    <td><code><a href="#speed" class="internal-link" title="sel_ide_runner.selenium_emu.SeleniumLibrary.speed">speed</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="instancevariable">
+    
+    <td>Instance Variable</td>
+    <td><code><a href="#timeout" class="internal-link" title="sel_ide_runner.selenium_emu.SeleniumLibrary.timeout">timeout</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="property">
+    
+    <td>Property</td>
+    <td><code><a href="#driver" class="internal-link" title="sel_ide_runner.selenium_emu.SeleniumLibrary.driver">driver</a></code></td>
+    <td>Current active driver.</td>
+  </tr><tr class="property">
+    
+    <td>Property</td>
+    <td><code><a href="#VariableStore" class="internal-link" title="sel_ide_runner.selenium_emu.SeleniumLibrary.VariableStore"><wbr></wbr>Variable<wbr></wbr>Store</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="method private">
+    
+    <td>Method</td>
+    <td><code><a href="#_parse_listener" class="internal-link" title="sel_ide_runner.selenium_emu.SeleniumLibrary._parse_listener">_parse<wbr></wbr>_listener</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="method private">
+    
+    <td>Method</td>
+    <td><code><a href="#_resolve_screenshot_root_directory" class="internal-link" title="sel_ide_runner.selenium_emu.SeleniumLibrary._resolve_screenshot_root_directory">_resolve<wbr></wbr>_screenshot<wbr></wbr>_root<wbr></wbr>_directory</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="method private">
+    
+    <td>Method</td>
+    <td><code><a href="#_string_to_modules" class="internal-link" title="sel_ide_runner.selenium_emu.SeleniumLibrary._string_to_modules">_string<wbr></wbr>_to<wbr></wbr>_modules</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="instancevariable private">
+    
+    <td>Instance Variable</td>
+    <td><code><a href="#__variableManager" class="internal-link" title="sel_ide_runner.selenium_emu.SeleniumLibrary.__variableManager">__variable<wbr></wbr>Manager</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="instancevariable private">
+    
+    <td>Instance Variable</td>
+    <td><code><a href="#_drivers" class="internal-link" title="sel_ide_runner.selenium_emu.SeleniumLibrary._drivers">_drivers</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="instancevariable private">
+    
+    <td>Instance Variable</td>
+    <td><code><a href="#_element_finder" class="internal-link" title="sel_ide_runner.selenium_emu.SeleniumLibrary._element_finder">_element<wbr></wbr>_finder</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="instancevariable private">
+    
+    <td>Instance Variable</td>
+    <td><code><a href="#_event_firing_webdriver" class="internal-link" title="sel_ide_runner.selenium_emu.SeleniumLibrary._event_firing_webdriver">_event<wbr></wbr>_firing<wbr></wbr>_webdriver</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="instancevariable private">
+    
+    <td>Instance Variable</td>
+    <td><code><a href="#_running_keyword" class="internal-link" title="sel_ide_runner.selenium_emu.SeleniumLibrary._running_keyword">_running<wbr></wbr>_keyword</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr>
+</table>
+          
+
+            
+        </div>
+
+        <div id="childList">
+          <div class="basemethod">
+  
+  
+  <a name="sel_ide_runner.selenium_emu.SeleniumLibrary.__init__">
+    
+  </a>
+  <a name="__init__">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">__init__</span>(self, timeout=<a href="https://docs.python.org/3/library/datetime.html#datetime.timedelta" class="intersphinx-link">timedelta</a>(<wbr></wbr>seconds=5), implicit_wait=<a href="https://docs.python.org/3/library/datetime.html#datetime.timedelta" class="intersphinx-link">timedelta</a>(<wbr></wbr>seconds=0), screenshot_root_directory=<a href="https://docs.python.org/3/library/constants.html#None" class="intersphinx-link">None</a>, event_firing_webdriver=<a href="https://docs.python.org/3/library/constants.html#None" class="intersphinx-link">None</a>):
+    
+    <a class="headerLink" href="#__init__" title="sel_ide_runner.selenium_emu.SeleniumLibrary.__init__">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>SeleniumLibrary can be imported with several optional arguments.</p>
+<ul class="rst-simple">
+<li><tt class="rst-docutils literal">timeout</tt>:
+Default value for <code>timeouts</code> used with <tt class="rst-docutils literal">Wait ...</tt> keywords.</li>
+<li><tt class="rst-docutils literal">implicit_wait</tt>:
+Default value for <code>implicit wait</code> used when locating elements.</li>
+<li><tt class="rst-docutils literal">run_on_failure</tt>:
+Default action for the <code>run-on-failure functionality</code>.</li>
+<li><tt class="rst-docutils literal">screenshot_root_directory</tt>:
+Path to folder where possible screenshots are created or EMBED.
+See <code>Set Screenshot Directory</code> keyword for further details about EMBED.
+If not given, the directory where the log file is written is used.</li>
+<li><tt class="rst-docutils literal">plugins</tt>:
+Allows extending the SeleniumLibrary with external Python classes.</li>
+<li><tt class="rst-docutils literal">event_firing_webdriver</tt>:
+Class for wrapping Selenium with
+[<a class="rst-reference external" href="https://seleniumhq.github.io/selenium/docs/api/py/webdriver_support/selenium.webdriver.support.event_firing_webdriver.html#module-selenium.webdriver.support" target="_top">https://seleniumhq.github.io/selenium/docs/api/py/webdriver_support/selenium.webdriver.support.event_firing_webdriver.html#module-selenium.webdriver.support</a>.event_firing_webdriver|EventFiringWebDriver]</li>
+</ul>
+<table class="fieldTable"><tr class="fieldStart"><td class="fieldName" colspan="2">Parameters</td></tr><tr><td class="fieldArgContainer"><span class="fieldArg">timeout</span></td><td class="fieldArgDesc"><span class="undocumented">Undocumented</span></td></tr><tr><td class="fieldArgContainer"><span class="fieldArg">implicit<wbr></wbr>_wait</span></td><td class="fieldArgDesc"><span class="undocumented">Undocumented</span></td></tr><tr><td class="fieldArgContainer"><span class="fieldArg">screenshot<wbr></wbr>_root<wbr></wbr>_directory:</span><code><a href="https://docs.python.org/3/library/typing.html#typing.Optional" class="intersphinx-link">Optional</a>[<wbr></wbr><a href="https://docs.python.org/3/library/stdtypes.html#str" class="intersphinx-link">str</a>]</code></td><td class="fieldArgDesc"><span class="undocumented">Undocumented</span></td></tr><tr><td class="fieldArgContainer"><span class="fieldArg">event<wbr></wbr>_firing<wbr></wbr>_webdriver:</span><code><a href="https://docs.python.org/3/library/typing.html#typing.Optional" class="intersphinx-link">Optional</a>[<wbr></wbr><a href="https://docs.python.org/3/library/stdtypes.html#str" class="intersphinx-link">str</a>]</code></td><td class="fieldArgDesc"><span class="undocumented">Undocumented</span></td></tr></table></div>
+  </div>
+</div><div class="basemethod">
+  
+  
+  <a name="sel_ide_runner.selenium_emu.SeleniumLibrary.capture_page_screenshot">
+    
+  </a>
+  <a name="capture_page_screenshot">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">capture_page_screenshot</span>(self):
+    
+    <a class="headerLink" href="#capture_page_screenshot" title="sel_ide_runner.selenium_emu.SeleniumLibrary.capture_page_screenshot">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p class="undocumented">Undocumented</p></div>
+  </div>
+</div><div class="basemethod">
+  
+  
+  <a name="sel_ide_runner.selenium_emu.SeleniumLibrary.failure_occurred">
+    
+  </a>
+  <a name="failure_occurred">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">failure_occurred</span>(self):
+    
+    <a class="headerLink" href="#failure_occurred" title="sel_ide_runner.selenium_emu.SeleniumLibrary.failure_occurred">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>Method that is executed when a SeleniumLibrary keyword fails.</p>
+<p>By default, executes the registered run-on-failure keyword.
+Libraries extending SeleniumLibrary can overwrite this hook
+method if they want to provide custom functionality instead.</p>
+</div>
+  </div>
+</div><div class="basemethod">
+  
+  
+  <a name="sel_ide_runner.selenium_emu.SeleniumLibrary.register_driver">
+    
+  </a>
+  <a name="register_driver">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">register_driver</span>(self, driver, alias):
+    
+    <a class="headerLink" href="#register_driver" title="sel_ide_runner.selenium_emu.SeleniumLibrary.register_driver">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>Add's a <code><a href="#driver" class="internal-link" title="sel_ide_runner.selenium_emu.SeleniumLibrary.driver">driver</a></code> to the library WebDriverCache.</p>
+<table class="fieldTable"><tr class="fieldStart"><td class="fieldName" colspan="2">Parameters</td></tr><tr><td class="fieldArgContainer"><span class="fieldArg">driver:</span>selenium.webdriver.remote.webdriver.WebDriver</td><td class="fieldArgDesc">Instance of the Selenium <code>WebDriver</code>.</td></tr><tr><td class="fieldArgContainer"><span class="fieldArg">alias:</span>str</td><td class="fieldArgDesc">Alias given for this <code>WebDriver</code> instance.</td></tr><tr class="fieldStart"><td class="fieldName" colspan="2">Returns</td></tr><tr><td class="fieldArgContainer">int</td><td class="fieldArgDesc">The index of the <code>WebDriver</code> instance.</td></tr></table></div>
+  </div>
+</div><div class="baseinstancevariable">
+  
+  
+  <a name="sel_ide_runner.selenium_emu.SeleniumLibrary.implicit_wait">
+    
+  </a>
+  <a name="implicit_wait">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-defname">implicit_wait</span> =
+    
+    <a class="headerLink" href="#implicit_wait" title="sel_ide_runner.selenium_emu.SeleniumLibrary.implicit_wait">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="functionBody">
+    
+    <div><p class="undocumented">Undocumented</p></div>
+    
+  </div>
+</div><div class="baseinstancevariable">
+  
+  
+  <a name="sel_ide_runner.selenium_emu.SeleniumLibrary.run_on_failure_keyword">
+    
+  </a>
+  <a name="run_on_failure_keyword">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-defname">run_on_failure_keyword</span> =
+    
+    <a class="headerLink" href="#run_on_failure_keyword" title="sel_ide_runner.selenium_emu.SeleniumLibrary.run_on_failure_keyword">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="functionBody">
+    
+    <div><p class="undocumented">Undocumented</p></div>
+    
+  </div>
+</div><div class="baseinstancevariable">
+  
+  
+  <a name="sel_ide_runner.selenium_emu.SeleniumLibrary.screenshot_root_directory">
+    
+  </a>
+  <a name="screenshot_root_directory">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-defname">screenshot_root_directory</span> =
+    
+    <a class="headerLink" href="#screenshot_root_directory" title="sel_ide_runner.selenium_emu.SeleniumLibrary.screenshot_root_directory">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="functionBody">
+    
+    <div><p class="undocumented">Undocumented</p></div>
+    
+  </div>
+</div><div class="baseinstancevariable">
+  
+  
+  <a name="sel_ide_runner.selenium_emu.SeleniumLibrary.speed">
+    
+  </a>
+  <a name="speed">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-defname">speed</span>: <code><a href="https://docs.python.org/3/library/functions.html#float" class="intersphinx-link">float</a></code> =
+    
+    <a class="headerLink" href="#speed" title="sel_ide_runner.selenium_emu.SeleniumLibrary.speed">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="functionBody">
+    
+    <div><p class="undocumented">Undocumented</p></div>
+    
+  </div>
+</div><div class="baseinstancevariable">
+  
+  
+  <a name="sel_ide_runner.selenium_emu.SeleniumLibrary.timeout">
+    
+  </a>
+  <a name="timeout">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-defname">timeout</span> =
+    
+    <a class="headerLink" href="#timeout" title="sel_ide_runner.selenium_emu.SeleniumLibrary.timeout">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="functionBody">
+    
+    <div><p class="undocumented">Undocumented</p></div>
+    
+  </div>
+</div><div class="baseproperty">
+  
+  
+  <a name="sel_ide_runner.selenium_emu.SeleniumLibrary.driver">
+    
+  </a>
+  <a name="driver">
+    
+  </a>
+  <div class="functionHeader">
+    @<a href="https://docs.python.org/3/library/functions.html#property" class="intersphinx-link">property</a><br />
+    <span class="py-defname">driver</span>: selenium.webdriver.remote.webdriver.WebDriver =
+    
+    <a class="headerLink" href="#driver" title="sel_ide_runner.selenium_emu.SeleniumLibrary.driver">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="functionBody">
+    
+    <div><p>Current active driver.</p>
+<table class="fieldTable"><tr class="fieldStart"><td class="fieldName" colspan="2">Raises</td></tr><tr><td class="fieldArgContainer"><code>SeleniumLibrary.errors.NoOpenBrowser</code></td><td>If browser is not open.</td></tr></table></div>
+    
+  </div>
+</div><div class="baseproperty">
+  
+  
+  <a name="sel_ide_runner.selenium_emu.SeleniumLibrary.VariableStore">
+    
+  </a>
+  <a name="VariableStore">
+    
+  </a>
+  <div class="functionHeader">
+    @<a href="https://docs.python.org/3/library/functions.html#property" class="intersphinx-link">property</a><br />
+    <span class="py-defname">VariableStore</span>: <code><a href="sel_ide_runner.selenium_emu.VariableManager.html" class="internal-link" title="sel_ide_runner.selenium_emu.VariableManager">VariableManager</a></code> =
+    
+    <a class="headerLink" href="#VariableStore" title="sel_ide_runner.selenium_emu.SeleniumLibrary.VariableStore">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="functionBody">
+    
+    <div><p class="undocumented">Undocumented</p></div>
+    
+  </div>
+</div><div class="basemethod private">
+  
+  
+  <a name="sel_ide_runner.selenium_emu.SeleniumLibrary._parse_listener">
+    
+  </a>
+  <a name="_parse_listener">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">_parse_listener</span>(self, event_firing_webdriver):
+    
+    <a class="headerLink" href="#_parse_listener" title="sel_ide_runner.selenium_emu.SeleniumLibrary._parse_listener">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p class="undocumented">Undocumented</p></div>
+  </div>
+</div><div class="basemethod private">
+  
+  
+  <a name="sel_ide_runner.selenium_emu.SeleniumLibrary._resolve_screenshot_root_directory">
+    
+  </a>
+  <a name="_resolve_screenshot_root_directory">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">_resolve_screenshot_root_directory</span>(self):
+    
+    <a class="headerLink" href="#_resolve_screenshot_root_directory" title="sel_ide_runner.selenium_emu.SeleniumLibrary._resolve_screenshot_root_directory">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p class="undocumented">Undocumented</p></div>
+  </div>
+</div><div class="basemethod private">
+  
+  
+  <a name="sel_ide_runner.selenium_emu.SeleniumLibrary._string_to_modules">
+    
+  </a>
+  <a name="_string_to_modules">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">_string_to_modules</span>(self, modules):
+    
+    <a class="headerLink" href="#_string_to_modules" title="sel_ide_runner.selenium_emu.SeleniumLibrary._string_to_modules">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p class="undocumented">Undocumented</p></div>
+  </div>
+</div><div class="baseinstancevariable private">
+  
+  
+  <a name="sel_ide_runner.selenium_emu.SeleniumLibrary.__variableManager">
+    
+  </a>
+  <a name="__variableManager">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-defname">__variableManager</span> =
+    
+    <a class="headerLink" href="#__variableManager" title="sel_ide_runner.selenium_emu.SeleniumLibrary.__variableManager">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="functionBody">
+    
+    <div><p class="undocumented">Undocumented</p></div>
+    
+  </div>
+</div><div class="baseinstancevariable private">
+  
+  
+  <a name="sel_ide_runner.selenium_emu.SeleniumLibrary._drivers">
+    
+  </a>
+  <a name="_drivers">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-defname">_drivers</span> =
+    
+    <a class="headerLink" href="#_drivers" title="sel_ide_runner.selenium_emu.SeleniumLibrary._drivers">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="functionBody">
+    
+    <div><p class="undocumented">Undocumented</p></div>
+    
+  </div>
+</div><div class="baseinstancevariable private">
+  
+  
+  <a name="sel_ide_runner.selenium_emu.SeleniumLibrary._element_finder">
+    
+  </a>
+  <a name="_element_finder">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-defname">_element_finder</span> =
+    
+    <a class="headerLink" href="#_element_finder" title="sel_ide_runner.selenium_emu.SeleniumLibrary._element_finder">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="functionBody">
+    
+    <div><p class="undocumented">Undocumented</p></div>
+    
+  </div>
+</div><div class="baseinstancevariable private">
+  
+  
+  <a name="sel_ide_runner.selenium_emu.SeleniumLibrary._event_firing_webdriver">
+    
+  </a>
+  <a name="_event_firing_webdriver">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-defname">_event_firing_webdriver</span> =
+    
+    <a class="headerLink" href="#_event_firing_webdriver" title="sel_ide_runner.selenium_emu.SeleniumLibrary._event_firing_webdriver">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="functionBody">
+    
+    <div><p class="undocumented">Undocumented</p></div>
+    
+  </div>
+</div><div class="baseinstancevariable private">
+  
+  
+  <a name="sel_ide_runner.selenium_emu.SeleniumLibrary._running_keyword">
+    
+  </a>
+  <a name="_running_keyword">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-defname">_running_keyword</span> =
+    
+    <a class="headerLink" href="#_running_keyword" title="sel_ide_runner.selenium_emu.SeleniumLibrary._running_keyword">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="functionBody">
+    
+    <div><p class="undocumented">Undocumented</p></div>
+    
+  </div>
+</div>
+        </div>
+      
+      </div>
+    </div>
+
+    <footer class="navbar navbar-default">
+    <hr />
+    
+    
+    <div class="container">
+      <a href="index.html">API Documentation</a> for <a href="https://github.com/pe2mbs/sel_ide_runner" class="projecthome">sel_ide_runner</a>,
+    generated by <a href="https://github.com/twisted/pydoctor/">pydoctor</a>
+      22.9.1 at 2023-01-29 16:30:19.
+    </div>
+    
+    <script src="ajax.js" type="text/javascript"></script>
+    <script src="searchlib.js" type="text/javascript"></script>
+    <script src="search.js" type="text/javascript"></script>
+  
+  </footer>
+  
+    <script src="pydoctor.js" type="text/javascript"></script>
+
+  </body>
+</html>

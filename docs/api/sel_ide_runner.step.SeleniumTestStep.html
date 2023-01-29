@@ -1,0 +1,4454 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+          "DTD/xhtml1-strict.dtd">
+<html>
+  
+
+  <head>
+    
+    <title>sel_ide_runner.step.SeleniumTestStep</title>
+    <meta name="generator" content="pydoctor 22.9.1"> 
+        
+    </meta>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1" />
+    <link rel="stylesheet" type="text/css" href="apidocs.css" />
+    <link rel="stylesheet" type="text/css" href="readthedocstheme.css" />
+    <link rel="stylesheet" type="text/css" href="extra.css" />
+</head>
+
+  <body>
+
+    
+
+    <nav class="navbar navbar-default mainnavbar">
+      
+  
+  <div class="container-fluid">
+
+
+    <div class="navbar-header">
+      
+      <div class="navlinks">
+        <span class="navbar-brand">
+          <a href="https://github.com/pe2mbs/sel_ide_runner" class="projecthome">sel_ide_runner</a> <a href="index.html">API Documentation</a>
+        </span>
+
+        <a href="moduleIndex.html">
+          Modules
+        </a>
+
+        <a href="classIndex.html">
+          Classes
+        </a>
+
+        <a href="nameIndex.html">
+          Names
+        </a>
+
+        <div id="search-box-container">
+          <div class="input-group">
+            <input id="search-box" type="search" name="search-query" placeholder="Search..." aria-label="Search" minlength="2" class="form-control" autocomplete="off" />
+            
+            <span class="input-group-btn">
+              <a style="display: none;" class="btn btn-default" id="search-clear-button" title="Clear" onclick="clearSearch()"><img src="fonts/x-circle.svg" alt="Clear" /></a>
+              <a class="btn btn-default" id="search-help-button" title="Help" onclick="toggleSearchHelpText()"><img src="fonts/info.svg" alt="Help" /></a>
+            </span>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+    
+        <!-- Side navigation -->
+      <div class="sidebarcontainer">
+        <nav class="sidebar">
+  
+
+  <div>
+
+      <div class="thingTitle">
+        <span>Class</span>
+        <code class="thisobject"><a href="sel_ide_runner.step.SeleniumTestStep.html" class="internal-link" title="This class"><wbr></wbr>Selenium<wbr></wbr>Test<wbr></wbr>Step</a></code> 
+      </div>
+      
+      <div>
+        
+
+        
+         
+
+        
+        
+
+        <div class="childrenKindTitle">Methods</div>
+        <ul>
+    
+    <li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#dummy" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.dummy">dummy</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#__init__" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.__init__">__init__</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#assertAlert" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.assertAlert">assert<wbr></wbr>Alert</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#AssertChecked" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.AssertChecked"><wbr></wbr>Assert<wbr></wbr>Checked</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#assertConfirmation" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.assertConfirmation">assert<wbr></wbr>Confirmation</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#assertEditable" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.assertEditable">assert<wbr></wbr>Editable</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#assertElementPresent" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.assertElementPresent">assert<wbr></wbr>Element<wbr></wbr>Present</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#assertNotText" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.assertNotText">assert<wbr></wbr>Not<wbr></wbr>Text</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#assertNotValue" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.assertNotValue">assert<wbr></wbr>Not<wbr></wbr>Value</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#assertPrompt" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.assertPrompt">assert<wbr></wbr>Prompt</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#assertText" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.assertText">assert<wbr></wbr>Text</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#assertTitle" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.assertTitle">assert<wbr></wbr>Title</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#assertValue" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.assertValue">assert<wbr></wbr>Value</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#bringBrowsertoForeground" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.bringBrowsertoForeground">bring<wbr></wbr>Browserto<wbr></wbr>Foreground</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#captureEntirePageScreenshot" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.captureEntirePageScreenshot">capture<wbr></wbr>Entire<wbr></wbr>Page<wbr></wbr>Screenshot</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#captureScreenshot" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.captureScreenshot">capture<wbr></wbr>Screenshot</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#Check" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.Check"><wbr></wbr>Check</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#chooseOkOnNextConfirmation" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.chooseOkOnNextConfirmation">choose<wbr></wbr>Ok<wbr></wbr>On<wbr></wbr>Next<wbr></wbr>Confirmation</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#click" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.click">click</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#clickAndWait" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.clickAndWait">click<wbr></wbr>And<wbr></wbr>Wait</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#clickAt" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.clickAt">click<wbr></wbr>At</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#csvRead" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.csvRead">csv<wbr></wbr>Read</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#csvSave" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.csvSave">csv<wbr></wbr>Save</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#deleteAllCookies" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.deleteAllCookies">delete<wbr></wbr>All<wbr></wbr>Cookies</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#Do" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.Do"><wbr></wbr>Do</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#dragAndDropToObject" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.dragAndDropToObject">drag<wbr></wbr>And<wbr></wbr>Drop<wbr></wbr>To<wbr></wbr>Object</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#echo" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.echo">echo</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#editContent" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.editContent">edit<wbr></wbr>Content</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#end" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.end">end</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#executeAsyncScript" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.executeAsyncScript">execute<wbr></wbr>Async<wbr></wbr>Script</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#executeScript" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.executeScript">execute<wbr></wbr>Script</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#forEach" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.forEach">for<wbr></wbr>Each</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#gotoIf" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.gotoIf">goto<wbr></wbr>If</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#gotoLabel" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.gotoLabel">goto<wbr></wbr>Label</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#highlight" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.highlight">highlight</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#label" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.label">label</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#mouseOver" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.mouseOver">mouse<wbr></wbr>Over</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#open" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.open">open</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#pause" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.pause">pause</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#prompt" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.prompt">prompt</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#Refresh" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.Refresh"><wbr></wbr>Refresh</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#Repeat_if" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.Repeat_if"><wbr></wbr>Repeat_if</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#run" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.run">run</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#Run" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.Run"><wbr></wbr>Run</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#runScript" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.runScript">run<wbr></wbr>Script</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#select" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.select">select</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#selectAndWait" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.selectAndWait">select<wbr></wbr>And<wbr></wbr>Wait</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#selectFrame" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.selectFrame">select<wbr></wbr>Frame</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#selectWindow" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.selectWindow">select<wbr></wbr>Window</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#sendKeys" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.sendKeys">send<wbr></wbr>Keys</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#setWindowSize" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.setWindowSize">set<wbr></wbr>Window<wbr></wbr>Size</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#sourceExtract" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.sourceExtract">source<wbr></wbr>Extract</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#sourceSearch" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.sourceSearch">source<wbr></wbr>Search</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#store" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.store">store</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#storeAttribute" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.storeAttribute">store<wbr></wbr>Attribute</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#storeChecked" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.storeChecked">store<wbr></wbr>Checked</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#storedVars" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.storedVars">stored<wbr></wbr>Vars</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#storeEval" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.storeEval">store<wbr></wbr>Eval</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#storeText" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.storeText">store<wbr></wbr>Text</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#storeTitle" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.storeTitle">store<wbr></wbr>Title</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#storeValue" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.storeValue">store<wbr></wbr>Value</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#storeXpathCount" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.storeXpathCount">store<wbr></wbr>Xpath<wbr></wbr>Count</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#ThrowError" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.ThrowError"><wbr></wbr>Throw<wbr></wbr>Error</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#times" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.times">times</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#type" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.type">type</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#Uncheck" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.Uncheck"><wbr></wbr>Uncheck</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#Verify" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.Verify"><wbr></wbr>Verify</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#VerifyChecked" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.VerifyChecked"><wbr></wbr>Verify<wbr></wbr>Checked</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#verifyElementNotPresent" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.verifyElementNotPresent">verify<wbr></wbr>Element<wbr></wbr>Not<wbr></wbr>Present</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#verifyElementPresent" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.verifyElementPresent">verify<wbr></wbr>Element<wbr></wbr>Present</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#verifyTextNotPresent" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.verifyTextNotPresent">verify<wbr></wbr>Text<wbr></wbr>Not<wbr></wbr>Present</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#verifyTextPresent" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.verifyTextPresent">verify<wbr></wbr>Text<wbr></wbr>Present</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#verifyTitle" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.verifyTitle">verify<wbr></wbr>Title</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#verifyValue" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.verifyValue">verify<wbr></wbr>Value</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#waitForElementPresent" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.waitForElementPresent">wait<wbr></wbr>For<wbr></wbr>Element<wbr></wbr>Present</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#waitForElementToLoad" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.waitForElementToLoad">wait<wbr></wbr>For<wbr></wbr>Element<wbr></wbr>To<wbr></wbr>Load</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#waitForPageLoadEvent" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.waitForPageLoadEvent">wait<wbr></wbr>For<wbr></wbr>Page<wbr></wbr>Load<wbr></wbr>Event</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#waitForPageToLoad" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.waitForPageToLoad">wait<wbr></wbr>For<wbr></wbr>Page<wbr></wbr>To<wbr></wbr>Load</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#waitForTextNotPresent" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.waitForTextNotPresent">wait<wbr></wbr>For<wbr></wbr>Text<wbr></wbr>Not<wbr></wbr>Present</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#waitForTextPresent" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.waitForTextPresent">wait<wbr></wbr>For<wbr></wbr>Text<wbr></wbr>Present</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#waitForVisible" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.waitForVisible">wait<wbr></wbr>For<wbr></wbr>Visible</a></code>
+            </div>
+        
+
+    </li><li class="private">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#_break" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep._break">_break</a></code>
+            </div>
+        
+
+    </li><li class="private">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#_continue" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep._continue">_continue</a></code>
+            </div>
+        
+
+    </li><li class="private">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#_else" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep._else">_else</a></code>
+            </div>
+        
+
+    </li><li class="private">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#_elseif" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep._elseif">_elseif</a></code>
+            </div>
+        
+
+    </li><li class="private">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#_if" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep._if">_if</a></code>
+            </div>
+        
+
+    </li><li class="private">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#_while" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep._while">_while</a></code>
+            </div>
+        
+
+    </li>
+</ul> 
+
+        
+         
+
+        <div class="childrenKindTitle">Attributes</div>
+        <ul>
+    
+    <li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#Command" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.Command"><wbr></wbr>Command</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#Comment" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.Comment"><wbr></wbr>Comment</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#Id" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.Id"><wbr></wbr>Id</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#Target" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.Target"><wbr></wbr>Target</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#Targets" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.Targets"><wbr></wbr>Targets</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#Value" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.Value"><wbr></wbr>Value</a></code>
+            </div>
+        
+
+    </li><li class="private">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#__COMMAND_TRANSLATE" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.__COMMAND_TRANSLATE">__COMMAND<wbr></wbr>_TRANSLATE</a></code>
+            </div>
+        
+
+    </li><li class="private">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#__SENDKEYS" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.__SENDKEYS">__SENDKEYS</a></code>
+            </div>
+        
+
+    </li><li class="private">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#__attributes" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.__attributes">__attributes</a></code>
+            </div>
+        
+
+    </li><li class="private">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#__command" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.__command">__command</a></code>
+            </div>
+        
+
+    </li><li class="private">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#__comment" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.__comment">__comment</a></code>
+            </div>
+        
+
+    </li><li class="private">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#__driver" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.__driver">__driver</a></code>
+            </div>
+        
+
+    </li><li class="private">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#__id" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.__id">__id</a></code>
+            </div>
+        
+
+    </li><li class="private">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#__suite" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.__suite">__suite</a></code>
+            </div>
+        
+
+    </li><li class="private">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#__target" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.__target">__target</a></code>
+            </div>
+        
+
+    </li><li class="private">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#__targets" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.__targets">__targets</a></code>
+            </div>
+        
+
+    </li><li class="private">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#__value" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.__value">__value</a></code>
+            </div>
+        
+
+    </li>
+</ul> 
+
+        
+         
+        
+      </div>
+  </div><div>
+
+      <div class="thingTitle">
+        <span>Module</span>
+        <code><a href="sel_ide_runner.step.html" class="internal-link" title="The parent of this class">step</a></code> 
+      </div>
+      
+      <div>
+        
+
+        
+         
+
+        <div class="childrenKindTitle">Classes</div>
+        <ul>
+    
+    <li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="sel_ide_runner.step.JsonAttrEncoder.html" class="internal-link" title="sel_ide_runner.step.JsonAttrEncoder"><wbr></wbr>Json<wbr></wbr>Attr<wbr></wbr>Encoder</a></code>
+            </div>
+        
+
+    </li><li class=" thisobject">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="sel_ide_runner.step.SeleniumTestStep.html" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep"><wbr></wbr>Selenium<wbr></wbr>Test<wbr></wbr>Step</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="sel_ide_runner.step.FlowControlNotSupported.html" class="internal-link" title="sel_ide_runner.step.FlowControlNotSupported"><wbr></wbr>Flow<wbr></wbr>Control<wbr></wbr>Not<wbr></wbr>Supported</a></code>
+            </div>
+        
+
+    </li>
+</ul>
+
+        <div class="childrenKindTitle">Functions</div>
+        <ul>
+    
+    <li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="sel_ide_runner.step.html#buildSendKeys" class="internal-link" title="sel_ide_runner.step.buildSendKeys">build<wbr></wbr>Send<wbr></wbr>Keys</a></code>
+            </div>
+        
+
+    </li>
+</ul> 
+
+        
+         
+
+        
+         
+
+        
+         
+        
+      </div>
+  </div>
+
+</nav>
+        <!-- No sidebar toggle for read the docs theme, the sidebar is always
+          visible when the screen is width enough.
+        -->
+      </div>
+
+    </nav>
+    
+    <div class="container-fluid">
+
+      <div id="main" class="">
+        
+
+        
+
+        <div id="search-results-container" style="display: none;">
+        
+          <div id="search-buttons">
+            <span class="label label-default" id="search-docstrings-button">
+            <label class="checkbox-inline">
+              <input type="checkbox" id="toggle-search-in-docstrings-checkbox" value="false" onclick="toggleSearchInDocstrings()">
+                search in docstrings
+              </input>
+            </label>
+            </span>
+            
+          </div>
+          
+          <noscript>
+              <h1>Cannot search: JavaScript is not supported/enabled in your browser.</h1>
+          </noscript>
+  
+          <div class="hint" id="search-help-box">
+            <p class="rst-last">
+        
+              Search bar offers the following options:
+              <ul>   
+                  <li>
+                    <strong>Term presence.</strong> The below example searches for documents that 
+                      must contain “foo”, might contain “bar” and must not contain “baz”: <code>+foo bar -baz</code>
+                  </li> 
+  
+                  <li>
+                    <strong>Wildcards.</strong> The below example searches for documents with words beginning with “foo”: <code>foo*</code>
+                  </li> 
+  
+                  <li>
+                    <strong>Search in specific fields.</strong> The following search matches all objects 
+                    in "twisted.mail" that matches “search”: <code>+qname:twisted.mail.* +search</code>
+  
+                    <p>
+                      Possible fields: 'name', 'qname' (fully qualified name), 'docstring', and 'kind'.
+                      Last two fields are only applicable if "search in docstrings" is enabled.
+                    </p>
+                  </li>
+  
+                  <li>
+                    <strong>Fuzzy matches.</strong> The following search matches all documents 
+                    that have a word within 1 edit distance of “foo”: <code>foo~1</code>
+                  </li>
+              </ul>
+  
+            </p>
+          </div>
+  
+          <div id="search-status"> </div>
+  
+          <div class="warning" id="search-warn-box" style="display: none;">
+            <p class="rst-last"><span id="search-warn"></span></p>
+          </div>
+  
+          <table id="search-results">
+            <!-- Filled dynamically by JS -->
+          </table>
+          
+          <div style="margin-top: 8px;">
+            <p>Results provided by <a href="https://lunrjs.com">Lunr.js</a></p>
+          </div>
+        </div>
+
+        <div class="page-header">
+          <h1 class="class"><code><code><a href="index.html" class="internal-link">sel_ide_runner</a></code><wbr></wbr>.<code><a href="sel_ide_runner.step.html" class="internal-link" title="sel_ide_runner.step">step</a></code><wbr></wbr>.<code><a href="sel_ide_runner.step.SeleniumTestStep.html" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep">SeleniumTestStep</a></code></code></h1>
+          <div id="showPrivate">
+            <button class="btn btn-link" onclick="togglePrivate()">Toggle Private API</button>
+          </div>
+        </div>
+
+        <div class="categoryHeader">
+          class documentation
+        </div>
+
+        <div class="extrasDocstring">
+          <p><code><span class="py-keyword">class</span> <span class="py-defname">SeleniumTestStep</span>(<a href="https://docs.python.org/3/library/functions.html#object" class="intersphinx-link">object</a>):</code></p>
+          <p><a href="classIndex.html#sel_ide_runner.step.SeleniumTestStep">View In Hierarchy</a></p>
+        </div>
+
+        <div class="moduleDocstring">
+          <div><p class="undocumented">Undocumented</p></div>
+        </div>
+
+        <div id="splitTables">
+          <table class="children sortable" id="id14">
+  
+  
+  <tr class="classmethod">
+    
+    <td>Class Method</td>
+    <td><code><a href="#dummy" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.dummy">dummy</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#__init__" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.__init__">__init__</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#assertAlert" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.assertAlert">assert<wbr></wbr>Alert</a></code></td>
+    <td>The expected alert message</td>
+  </tr><tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#AssertChecked" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.AssertChecked"><wbr></wbr>Assert<wbr></wbr>Checked</a></code></td>
+    <td>Continues test only if a checkbox or radio button is checked</td>
+  </tr><tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#assertConfirmation" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.assertConfirmation">assert<wbr></wbr>Confirmation</a></code></td>
+    <td>The expected Confirm message</td>
+  </tr><tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#assertEditable" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.assertEditable">assert<wbr></wbr>Editable</a></code></td>
+    <td>Checks if the input field can be edited.</td>
+  </tr><tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#assertElementPresent" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.assertElementPresent">assert<wbr></wbr>Element<wbr></wbr>Present</a></code></td>
+    <td>Checks if the element exists on the page.</td>
+  </tr><tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#assertNotText" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.assertNotText">assert<wbr></wbr>Not<wbr></wbr>Text</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#assertNotValue" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.assertNotValue">assert<wbr></wbr>Not<wbr></wbr>Value</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#assertPrompt" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.assertPrompt">assert<wbr></wbr>Prompt</a></code></td>
+    <td>The expected Prompt message</td>
+  </tr><tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#assertText" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.assertText">assert<wbr></wbr>Text</a></code></td>
+    <td>Variable declared in the storeXXX commands can be used in the string. For example: "Hello ${varusr}"</td>
+  </tr><tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#assertTitle" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.assertTitle">assert<wbr></wbr>Title</a></code></td>
+    <td>The expected string of the title (Exact matching).</td>
+  </tr><tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#assertValue" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.assertValue">assert<wbr></wbr>Value</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#bringBrowsertoForeground" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.bringBrowsertoForeground">bring<wbr></wbr>Browserto<wbr></wbr>Foreground</a></code></td>
+    <td>Brings the active browser tab to the foreground. Some browser features such as giving the selected input element the focus work only when the browser is in front.</td>
+  </tr><tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#captureEntirePageScreenshot" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.captureEntirePageScreenshot">capture<wbr></wbr>Entire<wbr></wbr>Page<wbr></wbr>Screenshot</a></code></td>
+    <td>Captures the contents of the entire website. The screenshot is displayed in the "Screenshot tab". From there, you can export it.</td>
+  </tr><tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#captureScreenshot" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.captureScreenshot">capture<wbr></wbr>Screenshot</a></code></td>
+    <td>Captures the contents of the OS view port (i.e. whatever is currently being displayed on the monitor). The screenshot is displayed in the "Screenshot tab". From there, you can export it.</td>
+  </tr><tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#Check" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.Check"><wbr></wbr>Check</a></code></td>
+    <td>Check a checkbox.</td>
+  </tr><tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#chooseOkOnNextConfirmation" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.chooseOkOnNextConfirmation">choose<wbr></wbr>Ok<wbr></wbr>On<wbr></wbr>Next<wbr></wbr>Confirmation</a></code></td>
+    <td>UI.Vision RPA closes dialogs automatically. In other words, chooseOkOnNextConfirmation is a built-in behavior, and no longer a separate command.</td>
+  </tr><tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#click" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.click">click</a></code></td>
+    <td>Clicks on the element.</td>
+  </tr><tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#clickAndWait" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.clickAndWait">click<wbr></wbr>And<wbr></wbr>Wait</a></code></td>
+    <td>ClicksAndWait on the element then waits for a page load event.</td>
+  </tr><tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#clickAt" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.clickAt">click<wbr></wbr>At</a></code></td>
+    <td>Clicks on specific location</td>
+  </tr><tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#csvRead" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.csvRead">csv<wbr></wbr>Read</a></code></td>
+    <td>Reads one line of the CSV file and makes the values available in ${COL1}, ${COL2}, ...and so on. Important: To submit more than just the first line of the CSV file, you must start the macro with the LOOP button...</td>
+  </tr><tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#csvSave" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.csvSave">csv<wbr></wbr>Save</a></code></td>
+    <td>Saves the line that was built store | value | !csvLine to a file inside the Chrome storage (not to your hard drive)</td>
+  </tr><tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#deleteAllCookies" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.deleteAllCookies">delete<wbr></wbr>All<wbr></wbr>Cookies</a></code></td>
+    <td>Deletes all cookies</td>
+  </tr><tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#Do" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.Do"><wbr></wbr>Do</a></code></td>
+    <td>Similar to while, the the first "if" check is done at the end of the loop.</td>
+  </tr><tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#dragAndDropToObject" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.dragAndDropToObject">drag<wbr></wbr>And<wbr></wbr>Drop<wbr></wbr>To<wbr></wbr>Object</a></code></td>
+    <td>Drag and drop an element</td>
+  </tr><tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#echo" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.echo">echo</a></code></td>
+    <td>The string to be printed in the log console.</td>
+  </tr><tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#editContent" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.editContent">edit<wbr></wbr>Content</a></code></td>
+    <td>target:     Selenium IDE locator value:      text in HTML format</td>
+  </tr><tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#end" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.end">end</a></code></td>
+    <td>Loop over the content of an Javascript array.</td>
+  </tr><tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#executeAsyncScript" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.executeAsyncScript">execute<wbr></wbr>Async<wbr></wbr>Script</a></code></td>
+    <td>Run an async Javascript snippet and store the result in variable</td>
+  </tr><tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#executeScript" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.executeScript">execute<wbr></wbr>Script</a></code></td>
+    <td>Run a Javascript snippet and store the result in variable</td>
+  </tr><tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#forEach" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.forEach">for<wbr></wbr>Each</a></code></td>
+    <td>Loop over the content of an Javascript array.</td>
+  </tr><tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#gotoIf" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.gotoIf">goto<wbr></wbr>If</a></code></td>
+    <td>(Deprecated) If the expression evaluates to TRUE the execution jumps to LABEL, otherwise continues with the next command. Often used with !statusOK.</td>
+  </tr><tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#gotoLabel" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.gotoLabel">goto<wbr></wbr>Label</a></code></td>
+    <td>(Deprecated) Jumps to LABEL.</td>
+  </tr><tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#highlight" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.highlight">highlight</a></code></td>
+    <td>target:     Selenium IDE locator value:      No longer needed. The new IDE highlights all found elements by default. You can disable highlighting in the settings.</td>
+  </tr><tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#label" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.label">label</a></code></td>
+    <td>(Deprecated) Defines the LABEL position for gotoIf and gotoLabel to jump to.</td>
+  </tr><tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#mouseOver" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.mouseOver">mouse<wbr></wbr>Over</a></code></td>
+    <td>target:         Selenium IDE locator :return:</td>
+  </tr><tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#open" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.open">open</a></code></td>
+    <td>New: Open supports relative and full URLs. The UI.Vision Selenium IDE does not recommend the use of the base URL concept, but we support it for backward compatibility.</td>
+  </tr><tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#pause" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.pause">pause</a></code></td>
+    <td>The amount of time to sleep in millisecond. For example: "5000" means to wait for 5 seconds.</td>
+  </tr><tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#prompt" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.prompt">prompt</a></code></td>
+    <td>Ask the user for input and store the value in a variable.</td>
+  </tr><tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#Refresh" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.Refresh"><wbr></wbr>Refresh</a></code></td>
+    <td>Refreshes (reloads) the current page.</td>
+  </tr><tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#Repeat_if" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.Repeat_if"><wbr></wbr>Repeat_if</a></code></td>
+    <td>Similar to while, the the first "if" check is done at the end of the loop.</td>
+  </tr><tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#run" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.run">run</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#Run" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.Run"><wbr></wbr>Run</a></code></td>
+    <td>Re-use one macro (test case) inside of another.</td>
+  </tr><tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#runScript" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.runScript">run<wbr></wbr>Script</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#select" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.select">select</a></code></td>
+    <td>target:     A locator of a drop-down menu value:      An option locator. For example: "label=Option1" (...andWait: plus waits for page load event) :return:</td>
+  </tr><tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#selectAndWait" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.selectAndWait">select<wbr></wbr>And<wbr></wbr>Wait</a></code></td>
+    <td>target:     A locator of a drop-down menu value:      An option locator. For example: "label=Option1" (...andWait: plus waits for page load event) :return:</td>
+  </tr><tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#selectFrame" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.selectFrame">select<wbr></wbr>Frame</a></code></td>
+    <td>"relative=parent" (Select the parent frame) "relative=top" (Select the top frame)</td>
+  </tr><tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#selectWindow" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.selectWindow">select<wbr></wbr>Window</a></code></td>
+    <td>Switch browser tabs. In addition to the tab name value, you can use numbers tab=0,1,2,3 to switch tabs. Tab=0 is current tab, 1 is one to right, etc.</td>
+  </tr><tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#sendKeys" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.sendKeys">send<wbr></wbr>Keys</a></code></td>
+    <td>For example: "${KEY_DOWN}"</td>
+  </tr><tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#setWindowSize" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.setWindowSize">set<wbr></wbr>Window<wbr></wbr>Size</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#sourceExtract" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.sourceExtract">source<wbr></wbr>Extract</a></code></td>
+    <td>Extract data and stores it in variable. Works with the page source, instead of looking at the web page object model (DOM).</td>
+  </tr><tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#sourceSearch" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.sourceSearch">source<wbr></wbr>Search</a></code></td>
+    <td>Counts matches and stores the result in a variable. Works with the page source, instead of looking at the web page object model (DOM).</td>
+  </tr><tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#store" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.store">store</a></code></td>
+    <td>Note: System variables start with ! like !TIMEOUT_WAIT. So you can not create a variable that starts with ! (=&gt; error message)</td>
+  </tr><tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#storeAttribute" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.storeAttribute">store<wbr></wbr>Attribute</a></code></td>
+    <td>target:     ….href …alt value:     Variable to store the attribute in it</td>
+  </tr><tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#storeChecked" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.storeChecked">store<wbr></wbr>Checked</a></code></td>
+    <td>result is true if the radiobutton or box is checked, otherwise false</td>
+  </tr><tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#storedVars" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.storedVars">stored<wbr></wbr>Vars</a></code></td>
+    <td>(Deprecated)</td>
+  </tr><tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#storeEval" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.storeEval">store<wbr></wbr>Eval</a></code></td>
+    <td>target:     Javascript to run... value:      Variable to store the result in (optional)</td>
+  </tr><tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#storeText" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.storeText">store<wbr></wbr>Text</a></code></td>
+    <td>target:     A Selenium IDE locator value:      The name of the variable storing the text of the target element. E. g. "abc"</td>
+  </tr><tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#storeTitle" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.storeTitle">store<wbr></wbr>Title</a></code></td>
+    <td>target:     (the title of the website) value:      The name of the variable storing the title e. g "mytitle" :return:</td>
+  </tr><tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#storeValue" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.storeValue">store<wbr></wbr>Value</a></code></td>
+    <td>target:     A Selenium IDE locator value:      The name of the variable storing the value of the target element. E. g. "phone"</td>
+  </tr><tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#storeXpathCount" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.storeXpathCount">store<wbr></wbr>Xpath<wbr></wbr>Count</a></code></td>
+    <td>Counts elements</td>
+  </tr><tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#ThrowError" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.ThrowError"><wbr></wbr>Throw<wbr></wbr>Error</a></code></td>
+    <td>This command triggers an error. It stops the macro execution and displays "your error message" in the log file. Together with if/endif it allows you to create your own error conditions.</td>
+  </tr><tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#times" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.times">times</a></code></td>
+    <td>Loop "Number" times.</td>
+  </tr><tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#type" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.type">type</a></code></td>
+    <td>This command erases box content, but sendkey does not</td>
+  </tr><tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#Uncheck" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.Uncheck"><wbr></wbr>Uncheck</a></code></td>
+    <td>UnCheck a checkbox.</td>
+  </tr><tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#Verify" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.Verify"><wbr></wbr>Verify</a></code></td>
+    <td>Assert that a variable is an expected value. The variable's value will be converted to a string for comparison.</td>
+  </tr><tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#VerifyChecked" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.VerifyChecked"><wbr></wbr>Verify<wbr></wbr>Checked</a></code></td>
+    <td>Logs if a checkbox or radio button is checked</td>
+  </tr><tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#verifyElementNotPresent" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.verifyElementNotPresent">verify<wbr></wbr>Element<wbr></wbr>Not<wbr></wbr>Present</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#verifyElementPresent" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.verifyElementPresent">verify<wbr></wbr>Element<wbr></wbr>Present</a></code></td>
+    <td>Checks if the element exists on the page and logs error if not.</td>
+  </tr><tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#verifyTextNotPresent" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.verifyTextNotPresent">verify<wbr></wbr>Text<wbr></wbr>Not<wbr></wbr>Present</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#verifyTextPresent" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.verifyTextPresent">verify<wbr></wbr>Text<wbr></wbr>Present</a></code></td>
+    <td>The next command will still be run even if the text verification fails.</td>
+  </tr><tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#verifyTitle" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.verifyTitle">verify<wbr></wbr>Title</a></code></td>
+    <td>The next command will still be run even if the text verification fails.</td>
+  </tr><tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#verifyValue" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.verifyValue">verify<wbr></wbr>Value</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#waitForElementPresent" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.waitForElementPresent">wait<wbr></wbr>For<wbr></wbr>Element<wbr></wbr>Present</a></code></td>
+    <td>These commands are no longer needed, as the UI.Vision RPA IDE uses implicit waiting, just like webDriver :return:</td>
+  </tr><tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#waitForElementToLoad" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.waitForElementToLoad">wait<wbr></wbr>For<wbr></wbr>Element<wbr></wbr>To<wbr></wbr>Load</a></code></td>
+    <td>These commands are no longer needed, as the UI.Vision RPA IDE uses implicit waiting, just like webDriver</td>
+  </tr><tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#waitForPageLoadEvent" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.waitForPageLoadEvent">wait<wbr></wbr>For<wbr></wbr>Page<wbr></wbr>Load<wbr></wbr>Event</a></code></td>
+    <td>Wait until HTML is ready by using stale check.</td>
+  </tr><tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#waitForPageToLoad" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.waitForPageToLoad">wait<wbr></wbr>For<wbr></wbr>Page<wbr></wbr>To<wbr></wbr>Load</a></code></td>
+    <td>Wait for the page to be fully loaded. Normally not needed as all "...andWait" commands include it e. g. in ClickandWait</td>
+  </tr><tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#waitForTextNotPresent" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.waitForTextNotPresent">wait<wbr></wbr>For<wbr></wbr>Text<wbr></wbr>Not<wbr></wbr>Present</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#waitForTextPresent" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.waitForTextPresent">wait<wbr></wbr>For<wbr></wbr>Text<wbr></wbr>Present</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#waitForVisible" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.waitForVisible">wait<wbr></wbr>For<wbr></wbr>Visible</a></code></td>
+    <td>Waits for the element to be visible.</td>
+  </tr><tr class="property">
+    
+    <td>Property</td>
+    <td><code><a href="#Command" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.Command"><wbr></wbr>Command</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="property">
+    
+    <td>Property</td>
+    <td><code><a href="#Comment" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.Comment"><wbr></wbr>Comment</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="property">
+    
+    <td>Property</td>
+    <td><code><a href="#Id" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.Id"><wbr></wbr>Id</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="property">
+    
+    <td>Property</td>
+    <td><code><a href="#Target" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.Target"><wbr></wbr>Target</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="property">
+    
+    <td>Property</td>
+    <td><code><a href="#Targets" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.Targets"><wbr></wbr>Targets</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="property">
+    
+    <td>Property</td>
+    <td><code><a href="#Value" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.Value"><wbr></wbr>Value</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="method private">
+    
+    <td>Method</td>
+    <td><code><a href="#_break" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep._break">_break</a></code></td>
+    <td>The break statement breaks the loop and continues executing the code after the loop (if any). Usually it is used after a conditional "if" (or similar) statement.</td>
+  </tr><tr class="method private">
+    
+    <td>Method</td>
+    <td><code><a href="#_continue" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep._continue">_continue</a></code></td>
+    <td>The continue statement breaks one iteration (in the loop) and continues with the next iteration in the loop. So the difference between break and continue is that break leaves a loop, and continue "only" jumps to the next iteration.</td>
+  </tr><tr class="method private">
+    
+    <td>Method</td>
+    <td><code><a href="#_else" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep._else">_else</a></code></td>
+    <td>The classic if-then-else conditional. If the expression evaluates to TRUE the "then" section is executed, otherwise the "else" section is executed. Often used with !statusOK</td>
+  </tr><tr class="method private">
+    
+    <td>Method</td>
+    <td><code><a href="#_elseif" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep._elseif">_elseif</a></code></td>
+    <td>The classic if-then-else conditional. If the expression evaluates to TRUE the "then" section is executed, otherwise the "else" section is executed. Often used with !statusOK</td>
+  </tr><tr class="method private">
+    
+    <td>Method</td>
+    <td><code><a href="#_if" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep._if">_if</a></code></td>
+    <td>The classic if-then-else conditional. If the expression evaluates to TRUE the "then" section is executed, otherwise the "else" section is executed. Often used with !statusOK</td>
+  </tr><tr class="method private">
+    
+    <td>Method</td>
+    <td><code><a href="#_while" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep._while">_while</a></code></td>
+    <td>Executes the section between while...end as often/as long as the conditional statement evaluates to true.</td>
+  </tr><tr class="constant private">
+    
+    <td>Constant</td>
+    <td><code><a href="#__COMMAND_TRANSLATE" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.__COMMAND_TRANSLATE">__COMMAND<wbr></wbr>_TRANSLATE</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="constant private">
+    
+    <td>Constant</td>
+    <td><code><a href="#__SENDKEYS" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.__SENDKEYS">__SENDKEYS</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="instancevariable private">
+    
+    <td>Instance Variable</td>
+    <td><code><a href="#__attributes" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.__attributes">__attributes</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="instancevariable private">
+    
+    <td>Instance Variable</td>
+    <td><code><a href="#__command" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.__command">__command</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="instancevariable private">
+    
+    <td>Instance Variable</td>
+    <td><code><a href="#__comment" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.__comment">__comment</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="instancevariable private">
+    
+    <td>Instance Variable</td>
+    <td><code><a href="#__driver" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.__driver">__driver</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="instancevariable private">
+    
+    <td>Instance Variable</td>
+    <td><code><a href="#__id" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.__id">__id</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="instancevariable private">
+    
+    <td>Instance Variable</td>
+    <td><code><a href="#__suite" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.__suite">__suite</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="instancevariable private">
+    
+    <td>Instance Variable</td>
+    <td><code><a href="#__target" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.__target">__target</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="instancevariable private">
+    
+    <td>Instance Variable</td>
+    <td><code><a href="#__targets" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.__targets">__targets</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="instancevariable private">
+    
+    <td>Instance Variable</td>
+    <td><code><a href="#__value" class="internal-link" title="sel_ide_runner.step.SeleniumTestStep.__value">__value</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr>
+</table>
+          
+
+            
+        </div>
+
+        <div id="childList">
+          <div class="baseclassmethod">
+  
+  
+  <a name="sel_ide_runner.step.SeleniumTestStep.dummy">
+    
+  </a>
+  <a name="dummy">
+    
+  </a>
+  <div class="functionHeader">
+    @<a href="https://docs.python.org/3/library/functions.html#classmethod" class="intersphinx-link">classmethod</a><br />
+    <span class="py-keyword">def</span> <span class="py-defname">dummy</span>(cls):
+    
+    <a class="headerLink" href="#dummy" title="sel_ide_runner.step.SeleniumTestStep.dummy">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p class="undocumented">Undocumented</p></div>
+  </div>
+</div><div class="basemethod">
+  
+  
+  <a name="sel_ide_runner.step.SeleniumTestStep.__init__">
+    
+  </a>
+  <a name="__init__">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">__init__</span>(self, id, comment, command, target, targets, value):
+    
+    <a class="headerLink" href="#__init__" title="sel_ide_runner.step.SeleniumTestStep.__init__">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p class="undocumented">Undocumented</p></div>
+  </div>
+</div><div class="basemethod">
+  
+  
+  <a name="sel_ide_runner.step.SeleniumTestStep.assertAlert">
+    
+  </a>
+  <a name="assertAlert">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">assertAlert</span>(self):
+    
+    <a class="headerLink" href="#assertAlert" title="sel_ide_runner.step.SeleniumTestStep.assertAlert">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>The expected alert message</p>
+<table class="fieldTable"><tr class="fieldStart"><td class="fieldName" colspan="2">Returns</td></tr><tr><td colspan="2"></td></tr></table></div>
+  </div>
+</div><div class="basemethod">
+  
+  
+  <a name="sel_ide_runner.step.SeleniumTestStep.AssertChecked">
+    
+  </a>
+  <a name="AssertChecked">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">AssertChecked</span>(self):
+    
+    <a class="headerLink" href="#AssertChecked" title="sel_ide_runner.step.SeleniumTestStep.AssertChecked">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>Continues test only if a checkbox or radio button is checked</p>
+<p>target:         A Selenium IDE locator</p>
+<table class="fieldTable"><tr class="fieldStart"><td class="fieldName" colspan="2">Returns</td></tr><tr><td colspan="2"></td></tr></table></div>
+  </div>
+</div><div class="basemethod">
+  
+  
+  <a name="sel_ide_runner.step.SeleniumTestStep.assertConfirmation">
+    
+  </a>
+  <a name="assertConfirmation">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">assertConfirmation</span>(self):
+    
+    <a class="headerLink" href="#assertConfirmation" title="sel_ide_runner.step.SeleniumTestStep.assertConfirmation">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>The expected Confirm message</p>
+<table class="fieldTable"><tr class="fieldStart"><td class="fieldName" colspan="2">Returns</td></tr><tr><td colspan="2"></td></tr></table></div>
+  </div>
+</div><div class="basemethod">
+  
+  
+  <a name="sel_ide_runner.step.SeleniumTestStep.assertEditable">
+    
+  </a>
+  <a name="assertEditable">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">assertEditable</span>(self):
+    
+    <a class="headerLink" href="#assertEditable" title="sel_ide_runner.step.SeleniumTestStep.assertEditable">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>Checks if the input field can be edited.</p>
+<p>A Selenium IDE locator</p>
+<table class="fieldTable"><tr class="fieldStart"><td class="fieldName" colspan="2">Returns</td></tr><tr><td colspan="2"></td></tr></table></div>
+  </div>
+</div><div class="basemethod">
+  
+  
+  <a name="sel_ide_runner.step.SeleniumTestStep.assertElementPresent">
+    
+  </a>
+  <a name="assertElementPresent">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">assertElementPresent</span>(self):
+    
+    <a class="headerLink" href="#assertElementPresent" title="sel_ide_runner.step.SeleniumTestStep.assertElementPresent">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>Checks if the element exists on the page.</p>
+<p>A Selenium IDE locator</p>
+<table class="fieldTable"><tr class="fieldStart"><td class="fieldName" colspan="2">Returns</td></tr><tr><td colspan="2"></td></tr></table></div>
+  </div>
+</div><div class="basemethod">
+  
+  
+  <a name="sel_ide_runner.step.SeleniumTestStep.assertNotText">
+    
+  </a>
+  <a name="assertNotText">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">assertNotText</span>(self):
+    
+    <a class="headerLink" href="#assertNotText" title="sel_ide_runner.step.SeleniumTestStep.assertNotText">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p class="undocumented">Undocumented</p></div>
+  </div>
+</div><div class="basemethod">
+  
+  
+  <a name="sel_ide_runner.step.SeleniumTestStep.assertNotValue">
+    
+  </a>
+  <a name="assertNotValue">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">assertNotValue</span>(self):
+    
+    <a class="headerLink" href="#assertNotValue" title="sel_ide_runner.step.SeleniumTestStep.assertNotValue">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p class="undocumented">Undocumented</p></div>
+  </div>
+</div><div class="basemethod">
+  
+  
+  <a name="sel_ide_runner.step.SeleniumTestStep.assertPrompt">
+    
+  </a>
+  <a name="assertPrompt">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">assertPrompt</span>(self):
+    
+    <a class="headerLink" href="#assertPrompt" title="sel_ide_runner.step.SeleniumTestStep.assertPrompt">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>The expected Prompt message</p>
+<table class="fieldTable"><tr class="fieldStart"><td class="fieldName" colspan="2">Returns</td></tr><tr><td colspan="2"></td></tr></table></div>
+  </div>
+</div><div class="basemethod">
+  
+  
+  <a name="sel_ide_runner.step.SeleniumTestStep.assertText">
+    
+  </a>
+  <a name="assertText">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">assertText</span>(self):
+    
+    <a class="headerLink" href="#assertText" title="sel_ide_runner.step.SeleniumTestStep.assertText">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>Variable declared in the storeXXX commands can be used in the string. For example: "Hello ${varusr}"</p>
+<p>target: A Selenium IDE locator
+value:  The expected string of the target element (Exact matching).</p>
+<table class="fieldTable"><tr class="fieldStart"><td class="fieldName" colspan="2">Returns</td></tr><tr><td colspan="2"></td></tr></table></div>
+  </div>
+</div><div class="basemethod">
+  
+  
+  <a name="sel_ide_runner.step.SeleniumTestStep.assertTitle">
+    
+  </a>
+  <a name="assertTitle">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">assertTitle</span>(self):
+    
+    <a class="headerLink" href="#assertTitle" title="sel_ide_runner.step.SeleniumTestStep.assertTitle">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>The expected string of the title (Exact matching).</p>
+<p>target:         expected string</p>
+<table class="fieldTable"><tr class="fieldStart"><td class="fieldName" colspan="2">Returns</td></tr><tr><td colspan="2"></td></tr></table></div>
+  </div>
+</div><div class="basemethod">
+  
+  
+  <a name="sel_ide_runner.step.SeleniumTestStep.assertValue">
+    
+  </a>
+  <a name="assertValue">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">assertValue</span>(self):
+    
+    <a class="headerLink" href="#assertValue" title="sel_ide_runner.step.SeleniumTestStep.assertValue">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p class="undocumented">Undocumented</p></div>
+  </div>
+</div><div class="basemethod">
+  
+  
+  <a name="sel_ide_runner.step.SeleniumTestStep.bringBrowsertoForeground">
+    
+  </a>
+  <a name="bringBrowsertoForeground">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">bringBrowsertoForeground</span>(self):
+    
+    <a class="headerLink" href="#bringBrowsertoForeground" title="sel_ide_runner.step.SeleniumTestStep.bringBrowsertoForeground">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>Brings the active browser tab to the foreground. Some browser features such as giving the selected input element the focus work only when the browser is in front.</p>
+<table class="fieldTable"><tr class="fieldStart"><td class="fieldName" colspan="2">Returns</td></tr><tr><td colspan="2"></td></tr></table></div>
+  </div>
+</div><div class="basemethod">
+  
+  
+  <a name="sel_ide_runner.step.SeleniumTestStep.captureEntirePageScreenshot">
+    
+  </a>
+  <a name="captureEntirePageScreenshot">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">captureEntirePageScreenshot</span>(self):
+    
+    <a class="headerLink" href="#captureEntirePageScreenshot" title="sel_ide_runner.step.SeleniumTestStep.captureEntirePageScreenshot">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>Captures the contents of the entire website. The screenshot is displayed in the "Screenshot tab". From there, you can export it.</p>
+<p>target:         file name</p>
+<table class="fieldTable"><tr class="fieldStart"><td class="fieldName" colspan="2">Returns</td></tr><tr><td colspan="2"></td></tr></table></div>
+  </div>
+</div><div class="basemethod">
+  
+  
+  <a name="sel_ide_runner.step.SeleniumTestStep.captureScreenshot">
+    
+  </a>
+  <a name="captureScreenshot">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">captureScreenshot</span>(self):
+    
+    <a class="headerLink" href="#captureScreenshot" title="sel_ide_runner.step.SeleniumTestStep.captureScreenshot">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>Captures the contents of the OS view port (i.e. whatever is currently being displayed on the monitor). The screenshot is displayed in the "Screenshot tab". From there, you can export it.</p>
+<p>target:         file name</p>
+<table class="fieldTable"><tr class="fieldStart"><td class="fieldName" colspan="2">Returns</td></tr><tr><td colspan="2"></td></tr></table></div>
+  </div>
+</div><div class="basemethod">
+  
+  
+  <a name="sel_ide_runner.step.SeleniumTestStep.Check">
+    
+  </a>
+  <a name="Check">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">Check</span>(self):
+    
+    <a class="headerLink" href="#Check" title="sel_ide_runner.step.SeleniumTestStep.Check">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>Check a checkbox.</p>
+<p>target: locator name</p>
+<table class="fieldTable"><tr class="fieldStart"><td class="fieldName" colspan="2">Returns</td></tr><tr><td colspan="2"></td></tr></table></div>
+  </div>
+</div><div class="basemethod">
+  
+  
+  <a name="sel_ide_runner.step.SeleniumTestStep.chooseOkOnNextConfirmation">
+    
+  </a>
+  <a name="chooseOkOnNextConfirmation">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">chooseOkOnNextConfirmation</span>(self):
+    
+    <a class="headerLink" href="#chooseOkOnNextConfirmation" title="sel_ide_runner.step.SeleniumTestStep.chooseOkOnNextConfirmation">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>UI.Vision RPA closes dialogs automatically. In other words, chooseOkOnNextConfirmation is a built-in behavior, and no longer a separate command.</p>
+<table class="fieldTable"><tr class="fieldStart"><td class="fieldName" colspan="2">Returns</td></tr><tr><td colspan="2"></td></tr></table></div>
+  </div>
+</div><div class="basemethod">
+  
+  
+  <a name="sel_ide_runner.step.SeleniumTestStep.click">
+    
+  </a>
+  <a name="click">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">click</span>(self):
+    
+    <a class="headerLink" href="#click" title="sel_ide_runner.step.SeleniumTestStep.click">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>Clicks on the element.</p>
+<p>target: A locator</p>
+<table class="fieldTable"><tr class="fieldStart"><td class="fieldName" colspan="2">Returns</td></tr><tr><td colspan="2"></td></tr></table></div>
+  </div>
+</div><div class="basemethod">
+  
+  
+  <a name="sel_ide_runner.step.SeleniumTestStep.clickAndWait">
+    
+  </a>
+  <a name="clickAndWait">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">clickAndWait</span>(self):
+    
+    <a class="headerLink" href="#clickAndWait" title="sel_ide_runner.step.SeleniumTestStep.clickAndWait">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>ClicksAndWait on the element then waits for a page load event.</p>
+<p>target: A locator</p>
+<table class="fieldTable"><tr class="fieldStart"><td class="fieldName" colspan="2">Returns</td></tr><tr><td colspan="2"></td></tr></table></div>
+  </div>
+</div><div class="basemethod">
+  
+  
+  <a name="sel_ide_runner.step.SeleniumTestStep.clickAt">
+    
+  </a>
+  <a name="clickAt">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">clickAt</span>(self):
+    
+    <a class="headerLink" href="#clickAt" title="sel_ide_runner.step.SeleniumTestStep.clickAt">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>Clicks on specific location</p>
+<p>target:     A Selenium IDE locator
+value:      x,y position of the mouse event relative to the target element. For example: "10,10"
+:return:</p>
+</div>
+  </div>
+</div><div class="basemethod">
+  
+  
+  <a name="sel_ide_runner.step.SeleniumTestStep.csvRead">
+    
+  </a>
+  <a name="csvRead">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">csvRead</span>(self):
+    
+    <a class="headerLink" href="#csvRead" title="sel_ide_runner.step.SeleniumTestStep.csvRead">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>Reads one line of the CSV file and makes the values available in ${COL1}, ${COL2}, ...and so on. Important: To submit more than just the first line of the CSV file, you must start the macro with the LOOP button. Each loop reads one line of the CSV. The line read is based on the value of the ${!LOOP} counter variable.</p>
+<p>target:         name of CSV file</p>
+<table class="fieldTable"><tr class="fieldStart"><td class="fieldName" colspan="2">Returns</td></tr><tr><td colspan="2"></td></tr></table></div>
+  </div>
+</div><div class="basemethod">
+  
+  
+  <a name="sel_ide_runner.step.SeleniumTestStep.csvSave">
+    
+  </a>
+  <a name="csvSave">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">csvSave</span>(self):
+    
+    <a class="headerLink" href="#csvSave" title="sel_ide_runner.step.SeleniumTestStep.csvSave">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>Saves the line that was built store | value | !csvLine to a file inside the Chrome storage (not to your hard drive)</p>
+<p>target      name of CSV file</p>
+<table class="fieldTable"><tr class="fieldStart"><td class="fieldName" colspan="2">Returns</td></tr><tr><td colspan="2"></td></tr></table></div>
+  </div>
+</div><div class="basemethod">
+  
+  
+  <a name="sel_ide_runner.step.SeleniumTestStep.deleteAllCookies">
+    
+  </a>
+  <a name="deleteAllCookies">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">deleteAllCookies</span>(self):
+    
+    <a class="headerLink" href="#deleteAllCookies" title="sel_ide_runner.step.SeleniumTestStep.deleteAllCookies">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>Deletes all cookies</p>
+<table class="fieldTable"><tr class="fieldStart"><td class="fieldName" colspan="2">Returns</td></tr><tr><td colspan="2"></td></tr></table></div>
+  </div>
+</div><div class="basemethod">
+  
+  
+  <a name="sel_ide_runner.step.SeleniumTestStep.Do">
+    
+  </a>
+  <a name="Do">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">Do</span>(self):
+    
+    <a class="headerLink" href="#Do" title="sel_ide_runner.step.SeleniumTestStep.Do">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>Similar to while, the the first "if" check is done at the end of the loop.</p>
+<table class="fieldTable"><tr class="fieldStart"><td class="fieldName" colspan="2">Returns</td></tr><tr><td colspan="2"></td></tr></table></div>
+  </div>
+</div><div class="basemethod">
+  
+  
+  <a name="sel_ide_runner.step.SeleniumTestStep.dragAndDropToObject">
+    
+  </a>
+  <a name="dragAndDropToObject">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">dragAndDropToObject</span>(self):
+    
+    <a class="headerLink" href="#dragAndDropToObject" title="sel_ide_runner.step.SeleniumTestStep.dragAndDropToObject">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>Drag and drop an element</p>
+<p>target: The locator of the element to be dragged
+value:  The locator of the element on which the target element is dropped.</p>
+<table class="fieldTable"><tr class="fieldStart"><td class="fieldName" colspan="2">Returns</td></tr><tr><td colspan="2"></td></tr></table></div>
+  </div>
+</div><div class="basemethod">
+  
+  
+  <a name="sel_ide_runner.step.SeleniumTestStep.echo">
+    
+  </a>
+  <a name="echo">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">echo</span>(self):
+    
+    <a class="headerLink" href="#echo" title="sel_ide_runner.step.SeleniumTestStep.echo">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>The string to be printed in the log console.</p>
+<p>target:     string</p>
+<table class="fieldTable"><tr class="fieldStart"><td class="fieldName" colspan="2">Returns</td></tr><tr><td colspan="2"></td></tr></table></div>
+  </div>
+</div><div class="basemethod">
+  
+  
+  <a name="sel_ide_runner.step.SeleniumTestStep.editContent">
+    
+  </a>
+  <a name="editContent">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">editContent</span>(self):
+    
+    <a class="headerLink" href="#editContent" title="sel_ide_runner.step.SeleniumTestStep.editContent">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>target:     Selenium IDE locator
+value:      text in HTML format</p>
+<table class="fieldTable"><tr class="fieldStart"><td class="fieldName" colspan="2">Returns</td></tr><tr><td colspan="2"></td></tr></table></div>
+  </div>
+</div><div class="basemethod">
+  
+  
+  <a name="sel_ide_runner.step.SeleniumTestStep.end">
+    
+  </a>
+  <a name="end">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">end</span>(self):
+    
+    <a class="headerLink" href="#end" title="sel_ide_runner.step.SeleniumTestStep.end">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>Loop over the content of an Javascript array.</p>
+<table class="fieldTable"><tr class="fieldStart"><td class="fieldName" colspan="2">Returns</td></tr><tr><td colspan="2"></td></tr></table></div>
+  </div>
+</div><div class="basemethod">
+  
+  
+  <a name="sel_ide_runner.step.SeleniumTestStep.executeAsyncScript">
+    
+  </a>
+  <a name="executeAsyncScript">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">executeAsyncScript</span>(self):
+    
+    <a class="headerLink" href="#executeAsyncScript" title="sel_ide_runner.step.SeleniumTestStep.executeAsyncScript">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>Run an async Javascript snippet and store the result in variable</p>
+<p>target:     Javascript
+value:      variable</p>
+<table class="fieldTable"><tr class="fieldStart"><td class="fieldName" colspan="2">Returns</td></tr><tr><td colspan="2"></td></tr></table></div>
+  </div>
+</div><div class="basemethod">
+  
+  
+  <a name="sel_ide_runner.step.SeleniumTestStep.executeScript">
+    
+  </a>
+  <a name="executeScript">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">executeScript</span>(self):
+    
+    <a class="headerLink" href="#executeScript" title="sel_ide_runner.step.SeleniumTestStep.executeScript">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>Run a Javascript snippet and store the result in variable</p>
+<p>target:     Javascript
+value:      variable</p>
+<table class="fieldTable"><tr class="fieldStart"><td class="fieldName" colspan="2">Returns</td></tr><tr><td colspan="2"></td></tr></table></div>
+  </div>
+</div><div class="basemethod">
+  
+  
+  <a name="sel_ide_runner.step.SeleniumTestStep.forEach">
+    
+  </a>
+  <a name="forEach">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">forEach</span>(self):
+    
+    <a class="headerLink" href="#forEach" title="sel_ide_runner.step.SeleniumTestStep.forEach">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>Loop over the content of an Javascript array.</p>
+<p>target:     Javascript to evaluate</p>
+<table class="fieldTable"><tr class="fieldStart"><td class="fieldName" colspan="2">Returns</td></tr><tr><td colspan="2"></td></tr></table></div>
+  </div>
+</div><div class="basemethod">
+  
+  
+  <a name="sel_ide_runner.step.SeleniumTestStep.gotoIf">
+    
+  </a>
+  <a name="gotoIf">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">gotoIf</span>(self):
+    
+    <a class="headerLink" href="#gotoIf" title="sel_ide_runner.step.SeleniumTestStep.gotoIf">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>(Deprecated) If the expression evaluates to TRUE the execution jumps to LABEL, otherwise continues with the next command. Often used with !statusOK.</p>
+<p>target:     Javascript to evaluate
+value:      Label</p>
+<table class="fieldTable"><tr class="fieldStart"><td class="fieldName" colspan="2">Returns</td></tr><tr><td colspan="2"></td></tr></table></div>
+  </div>
+</div><div class="basemethod">
+  
+  
+  <a name="sel_ide_runner.step.SeleniumTestStep.gotoLabel">
+    
+  </a>
+  <a name="gotoLabel">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">gotoLabel</span>(self):
+    
+    <a class="headerLink" href="#gotoLabel" title="sel_ide_runner.step.SeleniumTestStep.gotoLabel">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>(Deprecated) Jumps to LABEL.</p>
+<p>taget:      label</p>
+<table class="fieldTable"><tr class="fieldStart"><td class="fieldName" colspan="2">Returns</td></tr><tr><td colspan="2"></td></tr></table></div>
+  </div>
+</div><div class="basemethod">
+  
+  
+  <a name="sel_ide_runner.step.SeleniumTestStep.highlight">
+    
+  </a>
+  <a name="highlight">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">highlight</span>(self):
+    
+    <a class="headerLink" href="#highlight" title="sel_ide_runner.step.SeleniumTestStep.highlight">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>target:     Selenium IDE locator
+value:      No longer needed. The new IDE highlights all found elements by default. You can disable highlighting in the settings.</p>
+<table class="fieldTable"><tr class="fieldStart"><td class="fieldName" colspan="2">Returns</td></tr><tr><td colspan="2"></td></tr></table></div>
+  </div>
+</div><div class="basemethod">
+  
+  
+  <a name="sel_ide_runner.step.SeleniumTestStep.label">
+    
+  </a>
+  <a name="label">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">label</span>(self):
+    
+    <a class="headerLink" href="#label" title="sel_ide_runner.step.SeleniumTestStep.label">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>(Deprecated) Defines the LABEL position for gotoIf and gotoLabel to jump to.</p>
+<p>target:         Label</p>
+<table class="fieldTable"><tr class="fieldStart"><td class="fieldName" colspan="2">Returns</td></tr><tr><td colspan="2"></td></tr></table></div>
+  </div>
+</div><div class="basemethod">
+  
+  
+  <a name="sel_ide_runner.step.SeleniumTestStep.mouseOver">
+    
+  </a>
+  <a name="mouseOver">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">mouseOver</span>(self):
+    
+    <a class="headerLink" href="#mouseOver" title="sel_ide_runner.step.SeleniumTestStep.mouseOver">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>target:         Selenium IDE locator
+:return:</p>
+</div>
+  </div>
+</div><div class="basemethod">
+  
+  
+  <a name="sel_ide_runner.step.SeleniumTestStep.open">
+    
+  </a>
+  <a name="open">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">open</span>(self):
+    
+    <a class="headerLink" href="#open" title="sel_ide_runner.step.SeleniumTestStep.open">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>New: Open supports relative and full URLs.
+The UI.Vision Selenium IDE does not recommend the use of the base URL concept, but we support it for backward compatibility.</p>
+<p>target:     URL
+:return:</p>
+</div>
+  </div>
+</div><div class="basemethod">
+  
+  
+  <a name="sel_ide_runner.step.SeleniumTestStep.pause">
+    
+  </a>
+  <a name="pause">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">pause</span>(self):
+    
+    <a class="headerLink" href="#pause" title="sel_ide_runner.step.SeleniumTestStep.pause">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>The amount of time to sleep in millisecond. For example: "5000" means to wait for 5 seconds.</p>
+<p>target:         milliseconds</p>
+<table class="fieldTable"><tr class="fieldStart"><td class="fieldName" colspan="2">Returns</td></tr><tr><td colspan="2"></td></tr></table></div>
+  </div>
+</div><div class="basemethod">
+  
+  
+  <a name="sel_ide_runner.step.SeleniumTestStep.prompt">
+    
+  </a>
+  <a name="prompt">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">prompt</span>(self):
+    
+    <a class="headerLink" href="#prompt" title="sel_ide_runner.step.SeleniumTestStep.prompt">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>Ask the user for input and store the value in a variable.</p>
+<p>target:     your text <a class="rst-reference external" href="mailto:here@default" target="_top">here@default</a> value
+value:      variable</p>
+<table class="fieldTable"><tr class="fieldStart"><td class="fieldName" colspan="2">Returns</td></tr><tr><td colspan="2"></td></tr></table></div>
+  </div>
+</div><div class="basemethod">
+  
+  
+  <a name="sel_ide_runner.step.SeleniumTestStep.Refresh">
+    
+  </a>
+  <a name="Refresh">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">Refresh</span>(self):
+    
+    <a class="headerLink" href="#Refresh" title="sel_ide_runner.step.SeleniumTestStep.Refresh">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>Refreshes (reloads) the current page.</p>
+<table class="fieldTable"><tr class="fieldStart"><td class="fieldName" colspan="2">Returns</td></tr><tr><td colspan="2"></td></tr></table></div>
+  </div>
+</div><div class="basemethod">
+  
+  
+  <a name="sel_ide_runner.step.SeleniumTestStep.Repeat_if">
+    
+  </a>
+  <a name="Repeat_if">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">Repeat_if</span>(self):
+    
+    <a class="headerLink" href="#Repeat_if" title="sel_ide_runner.step.SeleniumTestStep.Repeat_if">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>Similar to while, the the first "if" check is done at the end of the loop.</p>
+<p>target:         Javascript to evaluate</p>
+<table class="fieldTable"><tr class="fieldStart"><td class="fieldName" colspan="2">Returns</td></tr><tr><td colspan="2"></td></tr></table></div>
+  </div>
+</div><div class="basemethod">
+  
+  
+  <a name="sel_ide_runner.step.SeleniumTestStep.run">
+    
+  </a>
+  <a name="run">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">run</span>(self, driver, suite, **kwargs):
+    
+    <a class="headerLink" href="#run" title="sel_ide_runner.step.SeleniumTestStep.run">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p class="undocumented">Undocumented</p><table class="fieldTable"><tr class="fieldStart"><td class="fieldName" colspan="2">Parameters</td></tr><tr><td class="fieldArgContainer"><span class="fieldArg">driver:</span><code><a href="sel_ide_runner.selenium_emu.SeleniumLibrary.html" class="internal-link" title="sel_ide_runner.selenium_emu.SeleniumLibrary">SeleniumLibrary</a></code></td><td class="fieldArgDesc"><span class="undocumented">Undocumented</span></td></tr><tr><td class="fieldArgContainer"><span class="fieldArg">suite</span></td><td class="fieldArgDesc"><span class="undocumented">Undocumented</span></td></tr><tr><td class="fieldArgContainer"><span class="fieldArg">**kwargs</span></td><td class="fieldArgDesc"><span class="undocumented">Undocumented</span></td></tr></table></div>
+  </div>
+</div><div class="basemethod">
+  
+  
+  <a name="sel_ide_runner.step.SeleniumTestStep.Run">
+    
+  </a>
+  <a name="Run">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">Run</span>(self):
+    
+    <a class="headerLink" href="#Run" title="sel_ide_runner.step.SeleniumTestStep.Run">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>Re-use one macro (test case) inside of another.</p>
+<table class="fieldTable"><tr class="fieldStart"><td class="fieldName" colspan="2">Returns</td></tr><tr><td colspan="2"></td></tr></table></div>
+  </div>
+</div><div class="basemethod">
+  
+  
+  <a name="sel_ide_runner.step.SeleniumTestStep.runScript">
+    
+  </a>
+  <a name="runScript">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">runScript</span>(self):
+    
+    <a class="headerLink" href="#runScript" title="sel_ide_runner.step.SeleniumTestStep.runScript">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p class="undocumented">Undocumented</p></div>
+  </div>
+</div><div class="basemethod">
+  
+  
+  <a name="sel_ide_runner.step.SeleniumTestStep.select">
+    
+  </a>
+  <a name="select">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">select</span>(self):
+    
+    <a class="headerLink" href="#select" title="sel_ide_runner.step.SeleniumTestStep.select">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>target:     A locator of a drop-down menu
+value:      An option locator. For example: "label=Option1" (...andWait: plus waits for page load event)
+:return:</p>
+</div>
+  </div>
+</div><div class="basemethod">
+  
+  
+  <a name="sel_ide_runner.step.SeleniumTestStep.selectAndWait">
+    
+  </a>
+  <a name="selectAndWait">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">selectAndWait</span>(self):
+    
+    <a class="headerLink" href="#selectAndWait" title="sel_ide_runner.step.SeleniumTestStep.selectAndWait">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>target:     A locator of a drop-down menu
+value:      An option locator. For example: "label=Option1" (...andWait: plus waits for page load event)
+:return:</p>
+</div>
+  </div>
+</div><div class="basemethod">
+  
+  
+  <a name="sel_ide_runner.step.SeleniumTestStep.selectFrame">
+    
+  </a>
+  <a name="selectFrame">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">selectFrame</span>(self):
+    
+    <a class="headerLink" href="#selectFrame" title="sel_ide_runner.step.SeleniumTestStep.selectFrame">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><dl class="rst-docutils">
+<dt>target:     "index=0" (Select the first frame of index 0)</dt>
+<dd>"relative=parent" (Select the parent frame)
+"relative=top" (Select the top frame)</dd>
+</dl>
+<table class="fieldTable"><tr class="fieldStart"><td class="fieldName" colspan="2">Returns</td></tr><tr><td colspan="2"></td></tr></table></div>
+  </div>
+</div><div class="basemethod">
+  
+  
+  <a name="sel_ide_runner.step.SeleniumTestStep.selectWindow">
+    
+  </a>
+  <a name="selectWindow">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">selectWindow</span>(self):
+    
+    <a class="headerLink" href="#selectWindow" title="sel_ide_runner.step.SeleniumTestStep.selectWindow">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>Switch browser tabs. In addition to the tab name value, you can use numbers tab=0,1,2,3 to switch tabs. Tab=0 is current tab, 1 is one to right, etc.</p>
+<p>target:         Auto-generated</p>
+<table class="fieldTable"><tr class="fieldStart"><td class="fieldName" colspan="2">Returns</td></tr><tr><td colspan="2"></td></tr></table></div>
+  </div>
+</div><div class="basemethod">
+  
+  
+  <a name="sel_ide_runner.step.SeleniumTestStep.sendKeys">
+    
+  </a>
+  <a name="sendKeys">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">sendKeys</span>(self):
+    
+    <a class="headerLink" href="#sendKeys" title="sel_ide_runner.step.SeleniumTestStep.sendKeys">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>For example: "${KEY_DOWN}"</p>
+<p>target:         A locator
+value:          A character.</p>
+<table class="fieldTable"><tr class="fieldStart"><td class="fieldName" colspan="2">Returns</td></tr><tr><td colspan="2"></td></tr></table></div>
+  </div>
+</div><div class="basemethod">
+  
+  
+  <a name="sel_ide_runner.step.SeleniumTestStep.setWindowSize">
+    
+  </a>
+  <a name="setWindowSize">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">setWindowSize</span>(self):
+    
+    <a class="headerLink" href="#setWindowSize" title="sel_ide_runner.step.SeleniumTestStep.setWindowSize">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p class="undocumented">Undocumented</p></div>
+  </div>
+</div><div class="basemethod">
+  
+  
+  <a name="sel_ide_runner.step.SeleniumTestStep.sourceExtract">
+    
+  </a>
+  <a name="sourceExtract">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">sourceExtract</span>(self):
+    
+    <a class="headerLink" href="#sourceExtract" title="sel_ide_runner.step.SeleniumTestStep.sourceExtract">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>Extract data and stores it in variable. Works with the page source, instead of looking at the web page object model (DOM).</p>
+<p>target:     search string or regex
+value:      variable</p>
+<table class="fieldTable"><tr class="fieldStart"><td class="fieldName" colspan="2">Returns</td></tr><tr><td colspan="2"></td></tr></table></div>
+  </div>
+</div><div class="basemethod">
+  
+  
+  <a name="sel_ide_runner.step.SeleniumTestStep.sourceSearch">
+    
+  </a>
+  <a name="sourceSearch">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">sourceSearch</span>(self):
+    
+    <a class="headerLink" href="#sourceSearch" title="sel_ide_runner.step.SeleniumTestStep.sourceSearch">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>Counts matches and stores the result in a variable. Works with the page source, instead of looking at the web page object model (DOM).</p>
+<p>target:     search string or regex
+value:      variable</p>
+<table class="fieldTable"><tr class="fieldStart"><td class="fieldName" colspan="2">Returns</td></tr><tr><td colspan="2"></td></tr></table></div>
+  </div>
+</div><div class="basemethod">
+  
+  
+  <a name="sel_ide_runner.step.SeleniumTestStep.store">
+    
+  </a>
+  <a name="store">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">store</span>(self):
+    
+    <a class="headerLink" href="#store" title="sel_ide_runner.step.SeleniumTestStep.store">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>Note: System variables start with ! like !TIMEOUT_WAIT. So you can not create a variable that starts with ! (=&gt; error message)</p>
+<p>target:     A string
+value:      The name of the variable storing the string. For example: "var_usr"</p>
+<table class="fieldTable"><tr class="fieldStart"><td class="fieldName" colspan="2">Returns</td></tr><tr><td colspan="2"></td></tr></table></div>
+  </div>
+</div><div class="basemethod">
+  
+  
+  <a name="sel_ide_runner.step.SeleniumTestStep.storeAttribute">
+    
+  </a>
+  <a name="storeAttribute">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">storeAttribute</span>(self):
+    
+    <a class="headerLink" href="#storeAttribute" title="sel_ide_runner.step.SeleniumTestStep.storeAttribute">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>target:     ….href …alt
+value:     Variable to store the attribute in it</p>
+<table class="fieldTable"><tr class="fieldStart"><td class="fieldName" colspan="2">Returns</td></tr><tr><td colspan="2"></td></tr></table></div>
+  </div>
+</div><div class="basemethod">
+  
+  
+  <a name="sel_ide_runner.step.SeleniumTestStep.storeChecked">
+    
+  </a>
+  <a name="storeChecked">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">storeChecked</span>(self):
+    
+    <a class="headerLink" href="#storeChecked" title="sel_ide_runner.step.SeleniumTestStep.storeChecked">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>result is true if the radiobutton or box is checked, otherwise false</p>
+<p>target:     A Selenium IDE locator
+value:      variable to store the result in</p>
+<table class="fieldTable"><tr class="fieldStart"><td class="fieldName" colspan="2">Returns</td></tr><tr><td colspan="2"></td></tr></table></div>
+  </div>
+</div><div class="basemethod">
+  
+  
+  <a name="sel_ide_runner.step.SeleniumTestStep.storedVars">
+    
+  </a>
+  <a name="storedVars">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">storedVars</span>(self):
+    
+    <a class="headerLink" href="#storedVars" title="sel_ide_runner.step.SeleniumTestStep.storedVars">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>(Deprecated)</p>
+<p>target:     used inside storeEval and other places</p>
+<table class="fieldTable"><tr class="fieldStart"><td class="fieldName" colspan="2">Returns</td></tr><tr><td colspan="2"></td></tr></table></div>
+  </div>
+</div><div class="basemethod">
+  
+  
+  <a name="sel_ide_runner.step.SeleniumTestStep.storeEval">
+    
+  </a>
+  <a name="storeEval">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">storeEval</span>(self):
+    
+    <a class="headerLink" href="#storeEval" title="sel_ide_runner.step.SeleniumTestStep.storeEval">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>target:     Javascript to run...
+value:      Variable to store the result in (optional)</p>
+<table class="fieldTable"><tr class="fieldStart"><td class="fieldName" colspan="2">Returns</td></tr><tr><td colspan="2"></td></tr></table></div>
+  </div>
+</div><div class="basemethod">
+  
+  
+  <a name="sel_ide_runner.step.SeleniumTestStep.storeText">
+    
+  </a>
+  <a name="storeText">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">storeText</span>(self):
+    
+    <a class="headerLink" href="#storeText" title="sel_ide_runner.step.SeleniumTestStep.storeText">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>target:     A Selenium IDE locator
+value:      The name of the variable storing the text of the target element. E. g. "abc"</p>
+<table class="fieldTable"><tr class="fieldStart"><td class="fieldName" colspan="2">Returns</td></tr><tr><td colspan="2"></td></tr></table></div>
+  </div>
+</div><div class="basemethod">
+  
+  
+  <a name="sel_ide_runner.step.SeleniumTestStep.storeTitle">
+    
+  </a>
+  <a name="storeTitle">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">storeTitle</span>(self):
+    
+    <a class="headerLink" href="#storeTitle" title="sel_ide_runner.step.SeleniumTestStep.storeTitle">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>target:     (the title of the website)
+value:      The name of the variable storing the title e. g "mytitle"
+:return:</p>
+</div>
+  </div>
+</div><div class="basemethod">
+  
+  
+  <a name="sel_ide_runner.step.SeleniumTestStep.storeValue">
+    
+  </a>
+  <a name="storeValue">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">storeValue</span>(self):
+    
+    <a class="headerLink" href="#storeValue" title="sel_ide_runner.step.SeleniumTestStep.storeValue">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>target:     A Selenium IDE locator
+value:      The name of the variable storing the value of the target element. E. g. "phone"</p>
+<table class="fieldTable"><tr class="fieldStart"><td class="fieldName" colspan="2">Returns</td></tr><tr><td colspan="2"></td></tr></table></div>
+  </div>
+</div><div class="basemethod">
+  
+  
+  <a name="sel_ide_runner.step.SeleniumTestStep.storeXpathCount">
+    
+  </a>
+  <a name="storeXpathCount">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">storeXpathCount</span>(self):
+    
+    <a class="headerLink" href="#storeXpathCount" title="sel_ide_runner.step.SeleniumTestStep.storeXpathCount">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>Counts elements</p>
+<p>target:     A Selenium IDE locator
+value:      The name of the variable storing the value of the target element. E. g. "phone"</p>
+<table class="fieldTable"><tr class="fieldStart"><td class="fieldName" colspan="2">Returns</td></tr><tr><td colspan="2"></td></tr></table></div>
+  </div>
+</div><div class="basemethod">
+  
+  
+  <a name="sel_ide_runner.step.SeleniumTestStep.ThrowError">
+    
+  </a>
+  <a name="ThrowError">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">ThrowError</span>(self):
+    
+    <a class="headerLink" href="#ThrowError" title="sel_ide_runner.step.SeleniumTestStep.ThrowError">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>This command triggers an error. It stops the macro execution and displays "your error message" in the log file. Together with if/endif it allows you to create your own error conditions.</p>
+<p>target:     Your error message
+:return:</p>
+</div>
+  </div>
+</div><div class="basemethod">
+  
+  
+  <a name="sel_ide_runner.step.SeleniumTestStep.times">
+    
+  </a>
+  <a name="times">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">times</span>(self):
+    
+    <a class="headerLink" href="#times" title="sel_ide_runner.step.SeleniumTestStep.times">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>Loop "Number" times.</p>
+<p>target:     number</p>
+<table class="fieldTable"><tr class="fieldStart"><td class="fieldName" colspan="2">Returns</td></tr><tr><td colspan="2"></td></tr></table></div>
+  </div>
+</div><div class="basemethod">
+  
+  
+  <a name="sel_ide_runner.step.SeleniumTestStep.type">
+    
+  </a>
+  <a name="type">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">type</span>(self):
+    
+    <a class="headerLink" href="#type" title="sel_ide_runner.step.SeleniumTestStep.type">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>This command erases box content, but sendkey does not</p>
+<p>target:     A Selenium IDE locator
+value:      The string to be set to an input field.</p>
+<table class="fieldTable"><tr class="fieldStart"><td class="fieldName" colspan="2">Returns</td></tr><tr><td colspan="2"></td></tr></table></div>
+  </div>
+</div><div class="basemethod">
+  
+  
+  <a name="sel_ide_runner.step.SeleniumTestStep.Uncheck">
+    
+  </a>
+  <a name="Uncheck">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">Uncheck</span>(self):
+    
+    <a class="headerLink" href="#Uncheck" title="sel_ide_runner.step.SeleniumTestStep.Uncheck">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>UnCheck a checkbox.</p>
+<p>target: locator name</p>
+<table class="fieldTable"><tr class="fieldStart"><td class="fieldName" colspan="2">Returns</td></tr><tr><td colspan="2"></td></tr></table></div>
+  </div>
+</div><div class="basemethod">
+  
+  
+  <a name="sel_ide_runner.step.SeleniumTestStep.Verify">
+    
+  </a>
+  <a name="Verify">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">Verify</span>(self):
+    
+    <a class="headerLink" href="#Verify" title="sel_ide_runner.step.SeleniumTestStep.Verify">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>Assert that a variable is an expected value. The variable's value will be converted to a string for comparison.</p>
+<p>target:     variable name without brackets
+value:      value</p>
+<table class="fieldTable"><tr class="fieldStart"><td class="fieldName" colspan="2">Returns</td></tr><tr><td colspan="2"></td></tr></table></div>
+  </div>
+</div><div class="basemethod">
+  
+  
+  <a name="sel_ide_runner.step.SeleniumTestStep.VerifyChecked">
+    
+  </a>
+  <a name="VerifyChecked">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">VerifyChecked</span>(self):
+    
+    <a class="headerLink" href="#VerifyChecked" title="sel_ide_runner.step.SeleniumTestStep.VerifyChecked">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>Logs if a checkbox or radio button is checked</p>
+<p>target:     A Selenium IDE locator</p>
+<table class="fieldTable"><tr class="fieldStart"><td class="fieldName" colspan="2">Returns</td></tr><tr><td colspan="2"></td></tr></table></div>
+  </div>
+</div><div class="basemethod">
+  
+  
+  <a name="sel_ide_runner.step.SeleniumTestStep.verifyElementNotPresent">
+    
+  </a>
+  <a name="verifyElementNotPresent">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">verifyElementNotPresent</span>(self):
+    
+    <a class="headerLink" href="#verifyElementNotPresent" title="sel_ide_runner.step.SeleniumTestStep.verifyElementNotPresent">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p class="undocumented">Undocumented</p></div>
+  </div>
+</div><div class="basemethod">
+  
+  
+  <a name="sel_ide_runner.step.SeleniumTestStep.verifyElementPresent">
+    
+  </a>
+  <a name="verifyElementPresent">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">verifyElementPresent</span>(self):
+    
+    <a class="headerLink" href="#verifyElementPresent" title="sel_ide_runner.step.SeleniumTestStep.verifyElementPresent">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>Checks if the element exists on the page and logs error if not.</p>
+<p>target:         A Selenium IDE locator</p>
+<table class="fieldTable"><tr class="fieldStart"><td class="fieldName" colspan="2">Returns</td></tr><tr><td colspan="2"></td></tr></table></div>
+  </div>
+</div><div class="basemethod">
+  
+  
+  <a name="sel_ide_runner.step.SeleniumTestStep.verifyTextNotPresent">
+    
+  </a>
+  <a name="verifyTextNotPresent">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">verifyTextNotPresent</span>(self):
+    
+    <a class="headerLink" href="#verifyTextNotPresent" title="sel_ide_runner.step.SeleniumTestStep.verifyTextNotPresent">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p class="undocumented">Undocumented</p></div>
+  </div>
+</div><div class="basemethod">
+  
+  
+  <a name="sel_ide_runner.step.SeleniumTestStep.verifyTextPresent">
+    
+  </a>
+  <a name="verifyTextPresent">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">verifyTextPresent</span>(self):
+    
+    <a class="headerLink" href="#verifyTextPresent" title="sel_ide_runner.step.SeleniumTestStep.verifyTextPresent">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>The next command will still be run even if the text verification fails.</p>
+<p>target:     A Selenium IDE locator
+value:      The expected string of the target element (Exact matching).</p>
+<table class="fieldTable"><tr class="fieldStart"><td class="fieldName" colspan="2">Returns</td></tr><tr><td colspan="2"></td></tr></table></div>
+  </div>
+</div><div class="basemethod">
+  
+  
+  <a name="sel_ide_runner.step.SeleniumTestStep.verifyTitle">
+    
+  </a>
+  <a name="verifyTitle">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">verifyTitle</span>(self):
+    
+    <a class="headerLink" href="#verifyTitle" title="sel_ide_runner.step.SeleniumTestStep.verifyTitle">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>The next command will still be run even if the text verification fails.</p>
+<p>target:     The expected string of the title (Exact matching).</p>
+<table class="fieldTable"><tr class="fieldStart"><td class="fieldName" colspan="2">Returns</td></tr><tr><td colspan="2"></td></tr></table></div>
+  </div>
+</div><div class="basemethod">
+  
+  
+  <a name="sel_ide_runner.step.SeleniumTestStep.verifyValue">
+    
+  </a>
+  <a name="verifyValue">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">verifyValue</span>(self):
+    
+    <a class="headerLink" href="#verifyValue" title="sel_ide_runner.step.SeleniumTestStep.verifyValue">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p class="undocumented">Undocumented</p></div>
+  </div>
+</div><div class="basemethod">
+  
+  
+  <a name="sel_ide_runner.step.SeleniumTestStep.waitForElementPresent">
+    
+  </a>
+  <a name="waitForElementPresent">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">waitForElementPresent</span>(self):
+    
+    <a class="headerLink" href="#waitForElementPresent" title="sel_ide_runner.step.SeleniumTestStep.waitForElementPresent">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>These commands are no longer needed, as the UI.Vision RPA IDE uses implicit waiting, just like webDriver
+:return:</p>
+</div>
+  </div>
+</div><div class="basemethod">
+  
+  
+  <a name="sel_ide_runner.step.SeleniumTestStep.waitForElementToLoad">
+    
+  </a>
+  <a name="waitForElementToLoad">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">waitForElementToLoad</span>(self):
+    
+    <a class="headerLink" href="#waitForElementToLoad" title="sel_ide_runner.step.SeleniumTestStep.waitForElementToLoad">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>These commands are no longer needed, as the UI.Vision RPA IDE uses implicit waiting, just like webDriver</p>
+<table class="fieldTable"><tr class="fieldStart"><td class="fieldName" colspan="2">Returns</td></tr><tr><td colspan="2"></td></tr></table></div>
+  </div>
+</div><div class="basemethod">
+  
+  
+  <a name="sel_ide_runner.step.SeleniumTestStep.waitForPageLoadEvent">
+    
+  </a>
+  <a name="waitForPageLoadEvent">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">waitForPageLoadEvent</span>(self, timeout=5, poll_frequency=1, browser_breath_delay=1):
+    
+    <a class="headerLink" href="#waitForPageLoadEvent" title="sel_ide_runner.step.SeleniumTestStep.waitForPageLoadEvent">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>Wait until HTML is ready by using stale check.</p>
+</div>
+  </div>
+</div><div class="basemethod">
+  
+  
+  <a name="sel_ide_runner.step.SeleniumTestStep.waitForPageToLoad">
+    
+  </a>
+  <a name="waitForPageToLoad">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">waitForPageToLoad</span>(self):
+    
+    <a class="headerLink" href="#waitForPageToLoad" title="sel_ide_runner.step.SeleniumTestStep.waitForPageToLoad">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>Wait for the page to be fully loaded. Normally not needed as all "...andWait" commands include it e. g. in ClickandWait</p>
+<table class="fieldTable"><tr class="fieldStart"><td class="fieldName" colspan="2">Returns</td></tr><tr><td colspan="2"></td></tr></table></div>
+  </div>
+</div><div class="basemethod">
+  
+  
+  <a name="sel_ide_runner.step.SeleniumTestStep.waitForTextNotPresent">
+    
+  </a>
+  <a name="waitForTextNotPresent">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">waitForTextNotPresent</span>(self, **kwargs):
+    
+    <a class="headerLink" href="#waitForTextNotPresent" title="sel_ide_runner.step.SeleniumTestStep.waitForTextNotPresent">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p class="undocumented">Undocumented</p></div>
+  </div>
+</div><div class="basemethod">
+  
+  
+  <a name="sel_ide_runner.step.SeleniumTestStep.waitForTextPresent">
+    
+  </a>
+  <a name="waitForTextPresent">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">waitForTextPresent</span>(self, **kwargs):
+    
+    <a class="headerLink" href="#waitForTextPresent" title="sel_ide_runner.step.SeleniumTestStep.waitForTextPresent">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p class="undocumented">Undocumented</p></div>
+  </div>
+</div><div class="basemethod">
+  
+  
+  <a name="sel_ide_runner.step.SeleniumTestStep.waitForVisible">
+    
+  </a>
+  <a name="waitForVisible">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">waitForVisible</span>(self):
+    
+    <a class="headerLink" href="#waitForVisible" title="sel_ide_runner.step.SeleniumTestStep.waitForVisible">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>Waits for the element to be visible.</p>
+<table class="fieldTable"><tr class="fieldStart"><td class="fieldName" colspan="2">Returns</td></tr><tr><td colspan="2"></td></tr></table></div>
+  </div>
+</div><div class="baseproperty">
+  
+  
+  <a name="sel_ide_runner.step.SeleniumTestStep.Command">
+    
+  </a>
+  <a name="Command">
+    
+  </a>
+  <div class="functionHeader">
+    @<a href="https://docs.python.org/3/library/functions.html#property" class="intersphinx-link">property</a><br />
+    <span class="py-defname">Command</span> =
+    
+    <a class="headerLink" href="#Command" title="sel_ide_runner.step.SeleniumTestStep.Command">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="functionBody">
+    
+    <div><p class="undocumented">Undocumented</p></div>
+    
+  </div>
+</div><div class="baseproperty">
+  
+  
+  <a name="sel_ide_runner.step.SeleniumTestStep.Comment">
+    
+  </a>
+  <a name="Comment">
+    
+  </a>
+  <div class="functionHeader">
+    @<a href="https://docs.python.org/3/library/functions.html#property" class="intersphinx-link">property</a><br />
+    <span class="py-defname">Comment</span> =
+    
+    <a class="headerLink" href="#Comment" title="sel_ide_runner.step.SeleniumTestStep.Comment">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="functionBody">
+    
+    <div><p class="undocumented">Undocumented</p></div>
+    
+  </div>
+</div><div class="baseproperty">
+  
+  
+  <a name="sel_ide_runner.step.SeleniumTestStep.Id">
+    
+  </a>
+  <a name="Id">
+    
+  </a>
+  <div class="functionHeader">
+    @<a href="https://docs.python.org/3/library/functions.html#property" class="intersphinx-link">property</a><br />
+    <span class="py-defname">Id</span> =
+    
+    <a class="headerLink" href="#Id" title="sel_ide_runner.step.SeleniumTestStep.Id">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="functionBody">
+    
+    <div><p class="undocumented">Undocumented</p></div>
+    
+  </div>
+</div><div class="baseproperty">
+  
+  
+  <a name="sel_ide_runner.step.SeleniumTestStep.Target">
+    
+  </a>
+  <a name="Target">
+    
+  </a>
+  <div class="functionHeader">
+    @<a href="https://docs.python.org/3/library/functions.html#property" class="intersphinx-link">property</a><br />
+    <span class="py-defname">Target</span> =
+    
+    <a class="headerLink" href="#Target" title="sel_ide_runner.step.SeleniumTestStep.Target">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="functionBody">
+    
+    <div><p class="undocumented">Undocumented</p></div>
+    
+  </div>
+</div><div class="baseproperty">
+  
+  
+  <a name="sel_ide_runner.step.SeleniumTestStep.Targets">
+    
+  </a>
+  <a name="Targets">
+    
+  </a>
+  <div class="functionHeader">
+    @<a href="https://docs.python.org/3/library/functions.html#property" class="intersphinx-link">property</a><br />
+    <span class="py-defname">Targets</span> =
+    
+    <a class="headerLink" href="#Targets" title="sel_ide_runner.step.SeleniumTestStep.Targets">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="functionBody">
+    
+    <div><p class="undocumented">Undocumented</p></div>
+    
+  </div>
+</div><div class="baseproperty">
+  
+  
+  <a name="sel_ide_runner.step.SeleniumTestStep.Value">
+    
+  </a>
+  <a name="Value">
+    
+  </a>
+  <div class="functionHeader">
+    @<a href="https://docs.python.org/3/library/functions.html#property" class="intersphinx-link">property</a><br />
+    <span class="py-defname">Value</span> =
+    
+    <a class="headerLink" href="#Value" title="sel_ide_runner.step.SeleniumTestStep.Value">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="functionBody">
+    
+    <div><p class="undocumented">Undocumented</p></div>
+    
+  </div>
+</div><div class="basemethod private">
+  
+  
+  <a name="sel_ide_runner.step.SeleniumTestStep._break">
+    
+  </a>
+  <a name="_break">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">_break</span>(self):
+    
+    <a class="headerLink" href="#_break" title="sel_ide_runner.step.SeleniumTestStep._break">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>The break statement breaks the loop and continues executing the code after the loop (if any). Usually it is used after a conditional "if" (or similar) statement.</p>
+<table class="fieldTable"><tr class="fieldStart"><td class="fieldName" colspan="2">Returns</td></tr><tr><td colspan="2"></td></tr></table></div>
+  </div>
+</div><div class="basemethod private">
+  
+  
+  <a name="sel_ide_runner.step.SeleniumTestStep._continue">
+    
+  </a>
+  <a name="_continue">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">_continue</span>(self):
+    
+    <a class="headerLink" href="#_continue" title="sel_ide_runner.step.SeleniumTestStep._continue">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>The continue statement breaks one iteration (in the loop) and continues with the next iteration in the loop. So the difference between break and continue is that break leaves a loop, and continue "only" jumps to the next iteration.</p>
+<table class="fieldTable"><tr class="fieldStart"><td class="fieldName" colspan="2">Returns</td></tr><tr><td colspan="2"></td></tr></table></div>
+  </div>
+</div><div class="basemethod private">
+  
+  
+  <a name="sel_ide_runner.step.SeleniumTestStep._else">
+    
+  </a>
+  <a name="_else">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">_else</span>(self):
+    
+    <a class="headerLink" href="#_else" title="sel_ide_runner.step.SeleniumTestStep._else">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>The classic if-then-else conditional. If the expression evaluates to TRUE the "then" section is executed, otherwise the "else" section is executed. Often used with !statusOK</p>
+<table class="fieldTable"><tr class="fieldStart"><td class="fieldName" colspan="2">Returns</td></tr><tr><td colspan="2"></td></tr></table></div>
+  </div>
+</div><div class="basemethod private">
+  
+  
+  <a name="sel_ide_runner.step.SeleniumTestStep._elseif">
+    
+  </a>
+  <a name="_elseif">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">_elseif</span>(self):
+    
+    <a class="headerLink" href="#_elseif" title="sel_ide_runner.step.SeleniumTestStep._elseif">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>The classic if-then-else conditional. If the expression evaluates to TRUE the "then" section is executed, otherwise the "else" section is executed. Often used with !statusOK</p>
+<p>target:         Javascript to evaluate
+:return:</p>
+</div>
+  </div>
+</div><div class="basemethod private">
+  
+  
+  <a name="sel_ide_runner.step.SeleniumTestStep._if">
+    
+  </a>
+  <a name="_if">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">_if</span>(self):
+    
+    <a class="headerLink" href="#_if" title="sel_ide_runner.step.SeleniumTestStep._if">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>The classic if-then-else conditional. If the expression evaluates to TRUE the "then" section is executed, otherwise the "else" section is executed. Often used with !statusOK</p>
+<p>target:                 Javascript to evaluate
+:return:</p>
+</div>
+  </div>
+</div><div class="basemethod private">
+  
+  
+  <a name="sel_ide_runner.step.SeleniumTestStep._while">
+    
+  </a>
+  <a name="_while">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">_while</span>(self):
+    
+    <a class="headerLink" href="#_while" title="sel_ide_runner.step.SeleniumTestStep._while">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>Executes the section between while...end as often/as long as the conditional statement evaluates to true.</p>
+<p>target:     Javascript to evaluate</p>
+<table class="fieldTable"><tr class="fieldStart"><td class="fieldName" colspan="2">Returns</td></tr><tr><td colspan="2"></td></tr></table></div>
+  </div>
+</div><div class="baseconstant private">
+  
+  
+  <a name="sel_ide_runner.step.SeleniumTestStep.__COMMAND_TRANSLATE">
+    
+  </a>
+  <a name="__COMMAND_TRANSLATE">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-defname">__COMMAND_TRANSLATE</span>: <code><a href="https://docs.python.org/3/library/stdtypes.html#dict" class="intersphinx-link">dict</a>[<wbr></wbr><a href="https://docs.python.org/3/library/stdtypes.html#str" class="intersphinx-link">str</a>, <wbr></wbr><a href="https://docs.python.org/3/library/stdtypes.html#str" class="intersphinx-link">str</a>]</code> =
+    
+    <a class="headerLink" href="#__COMMAND_TRANSLATE" title="sel_ide_runner.step.SeleniumTestStep.__COMMAND_TRANSLATE">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="functionBody">
+    
+    <div><p class="undocumented">Undocumented</p></div>
+    <table class="valueTable"><tr class="fieldStart"><td class="fieldName">Value</td></tr><tr><td><pre class="constant-value"><code>{<wbr></wbr><span class="rst-variable-quote">'</span><span class="rst-variable-string">continue</span><span class="rst-variable-quote">'</span>: <span class="rst-variable-quote">'</span><span class="rst-variable-string">_continue</span><span class="rst-variable-quote">'</span>,
+ <wbr></wbr><span class="rst-variable-quote">'</span><span class="rst-variable-string">break</span><span class="rst-variable-quote">'</span>: <span class="rst-variable-quote">'</span><span class="rst-variable-string">_break</span><span class="rst-variable-quote">'</span>,
+ <wbr></wbr><span class="rst-variable-quote">'</span><span class="rst-variable-string">while</span><span class="rst-variable-quote">'</span>: <span class="rst-variable-quote">'</span><span class="rst-variable-string">_while</span><span class="rst-variable-quote">'</span>,
+ <wbr></wbr><span class="rst-variable-quote">'</span><span class="rst-variable-string">else</span><span class="rst-variable-quote">'</span>: <span class="rst-variable-quote">'</span><span class="rst-variable-string">_else</span><span class="rst-variable-quote">'</span>,
+ <wbr></wbr><span class="rst-variable-quote">'</span><span class="rst-variable-string">elseif</span><span class="rst-variable-quote">'</span>: <span class="rst-variable-quote">'</span><span class="rst-variable-string">_elseif</span><span class="rst-variable-quote">'</span>,
+ <wbr></wbr><span class="rst-variable-quote">'</span><span class="rst-variable-string">if</span><span class="rst-variable-quote">'</span>: <span class="rst-variable-quote">'</span><span class="rst-variable-string">_if</span><span class="rst-variable-quote">'</span>}</code></pre></td></tr></table>
+  </div>
+</div><div class="baseconstant private">
+  
+  
+  <a name="sel_ide_runner.step.SeleniumTestStep.__SENDKEYS">
+    
+  </a>
+  <a name="__SENDKEYS">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-defname">__SENDKEYS</span> =
+    
+    <a class="headerLink" href="#__SENDKEYS" title="sel_ide_runner.step.SeleniumTestStep.__SENDKEYS">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="functionBody">
+    
+    <div><p class="undocumented">Undocumented</p></div>
+    <table class="valueTable"><tr class="fieldStart"><td class="fieldName">Value</td></tr><tr><td><pre class="constant-value"><code><a href="sel_ide_runner.step.html#buildSendKeys" class="internal-link" title="sel_ide_runner.step.buildSendKeys">buildSendKeys</a>()</code></pre></td></tr></table>
+  </div>
+</div><div class="baseinstancevariable private">
+  
+  
+  <a name="sel_ide_runner.step.SeleniumTestStep.__attributes">
+    
+  </a>
+  <a name="__attributes">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-defname">__attributes</span> =
+    
+    <a class="headerLink" href="#__attributes" title="sel_ide_runner.step.SeleniumTestStep.__attributes">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="functionBody">
+    
+    <div><p class="undocumented">Undocumented</p></div>
+    
+  </div>
+</div><div class="baseinstancevariable private">
+  
+  
+  <a name="sel_ide_runner.step.SeleniumTestStep.__command">
+    
+  </a>
+  <a name="__command">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-defname">__command</span> =
+    
+    <a class="headerLink" href="#__command" title="sel_ide_runner.step.SeleniumTestStep.__command">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="functionBody">
+    
+    <div><p class="undocumented">Undocumented</p></div>
+    
+  </div>
+</div><div class="baseinstancevariable private">
+  
+  
+  <a name="sel_ide_runner.step.SeleniumTestStep.__comment">
+    
+  </a>
+  <a name="__comment">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-defname">__comment</span> =
+    
+    <a class="headerLink" href="#__comment" title="sel_ide_runner.step.SeleniumTestStep.__comment">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="functionBody">
+    
+    <div><p class="undocumented">Undocumented</p></div>
+    
+  </div>
+</div><div class="baseinstancevariable private">
+  
+  
+  <a name="sel_ide_runner.step.SeleniumTestStep.__driver">
+    
+  </a>
+  <a name="__driver">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-defname">__driver</span> =
+    
+    <a class="headerLink" href="#__driver" title="sel_ide_runner.step.SeleniumTestStep.__driver">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="functionBody">
+    
+    <div><p class="undocumented">Undocumented</p></div>
+    
+  </div>
+</div><div class="baseinstancevariable private">
+  
+  
+  <a name="sel_ide_runner.step.SeleniumTestStep.__id">
+    
+  </a>
+  <a name="__id">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-defname">__id</span> =
+    
+    <a class="headerLink" href="#__id" title="sel_ide_runner.step.SeleniumTestStep.__id">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="functionBody">
+    
+    <div><p class="undocumented">Undocumented</p></div>
+    
+  </div>
+</div><div class="baseinstancevariable private">
+  
+  
+  <a name="sel_ide_runner.step.SeleniumTestStep.__suite">
+    
+  </a>
+  <a name="__suite">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-defname">__suite</span> =
+    
+    <a class="headerLink" href="#__suite" title="sel_ide_runner.step.SeleniumTestStep.__suite">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="functionBody">
+    
+    <div><p class="undocumented">Undocumented</p></div>
+    
+  </div>
+</div><div class="baseinstancevariable private">
+  
+  
+  <a name="sel_ide_runner.step.SeleniumTestStep.__target">
+    
+  </a>
+  <a name="__target">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-defname">__target</span> =
+    
+    <a class="headerLink" href="#__target" title="sel_ide_runner.step.SeleniumTestStep.__target">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="functionBody">
+    
+    <div><p class="undocumented">Undocumented</p></div>
+    
+  </div>
+</div><div class="baseinstancevariable private">
+  
+  
+  <a name="sel_ide_runner.step.SeleniumTestStep.__targets">
+    
+  </a>
+  <a name="__targets">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-defname">__targets</span> =
+    
+    <a class="headerLink" href="#__targets" title="sel_ide_runner.step.SeleniumTestStep.__targets">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="functionBody">
+    
+    <div><p class="undocumented">Undocumented</p></div>
+    
+  </div>
+</div><div class="baseinstancevariable private">
+  
+  
+  <a name="sel_ide_runner.step.SeleniumTestStep.__value">
+    
+  </a>
+  <a name="__value">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-defname">__value</span>: <code><a href="https://docs.python.org/3/library/stdtypes.html#str" class="intersphinx-link">str</a></code> =
+    
+    <a class="headerLink" href="#__value" title="sel_ide_runner.step.SeleniumTestStep.__value">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="functionBody">
+    
+    <div><p class="undocumented">Undocumented</p></div>
+    
+  </div>
+</div>
+        </div>
+      
+      </div>
+    </div>
+
+    <footer class="navbar navbar-default">
+    <hr />
+    
+    
+    <div class="container">
+      <a href="index.html">API Documentation</a> for <a href="https://github.com/pe2mbs/sel_ide_runner" class="projecthome">sel_ide_runner</a>,
+    generated by <a href="https://github.com/twisted/pydoctor/">pydoctor</a>
+      22.9.1 at 2023-01-29 16:30:19.
+    </div>
+    
+    <script src="ajax.js" type="text/javascript"></script>
+    <script src="searchlib.js" type="text/javascript"></script>
+    <script src="search.js" type="text/javascript"></script>
+  
+  </footer>
+  
+    <script src="pydoctor.js" type="text/javascript"></script>
+
+  </body>
+</html>
