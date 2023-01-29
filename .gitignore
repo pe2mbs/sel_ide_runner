@@ -1,0 +1,10 @@
+help_scripts/
+venv/
+build/
+.idea/
+*.log
+*.json
+__pycache__/
+keystore.pyks
+bin/
+*.side

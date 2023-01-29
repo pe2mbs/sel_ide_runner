@@ -1,0 +1,54 @@
+[build-system]
+requires = ["setuptools>=66.0.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sel_ide_runner"
+version = "1.0.0"
+authors = [
+  { name="Marc Berten-Nguyen", email="m.bertens@pe2mbs.nl" },
+]
+description = "Python Selenium IDE runner"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: GNU General Public License v2 (GPLv2)",
+    "Operating System :: OS Independent",
+    "Topic :: Security :: Cryptography"
+]
+
+dependencies = [
+    "PyYAML",
+    "robotframework-seleniumlibrary==6.0.0",
+    "pykeystore"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/pe2mbs/pykeystore"
+"Bug Tracker" = "https://github.com/pe2mbs/pykeystore/issues"
+
+
+[tool.setuptools.packages.find]
+# All the following settings are optional:
+where = ["."]  # ["."] by default
+include = ["pykeystore"]  # ["*"] by default
+exclude = []  # empty by default
+namespaces = true  # true by default
+
+[project.scripts]
+python-keystore = "sel_ide_runner.__main__:main"
+
+[tool.pydoctor]
+project-name = "sel_ide_runner"
+project-version = "1.0.0"
+project-url = "https://github.com/pe2mbs/sel_ide_runner"
+theme = "readthedocs"
+html-output = "docs/api"
+intersphinx = ["https://docs.python.org/3/objects.inv"]
+add-package = ["pykeystore"]
+docformat = "restructuredtext"
+verbose = 1
+warnings-as-errors = true
+privacy = []
