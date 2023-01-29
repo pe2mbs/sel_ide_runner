@@ -8,3 +8,5 @@ __pycache__/
 keystore.pyks
 bin/
 *.side
+dist/
+sel_ide_runner.egg-info/
