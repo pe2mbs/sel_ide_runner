@@ -12,7 +12,7 @@ from selenium.webdriver.support.expected_conditions import staleness_of, visibil
 from selenium.webdriver.support.ui import WebDriverWait, Select
 from sel_ide_runner.selenium_emu import SeleniumLibrary
 from selenium.webdriver.common.keys import Keys
-
+from sel_ide_runner.commands.selenium import SeleniumCommands
 
 class FlowControlNotSupported( Exception ): pass
 
@@ -103,21 +103,6 @@ class SeleniumTestStep( object ):
             logging.info( f"Executing {self.__command} with target '{self.__target}' and value '{self.__value}'")
 
         getattr(self, self.__command )()
-        # try:
-        #     getattr(self, self.__command )()
-        #
-        # except TypeError:
-        #     logging.exception( f"Command: {self.__command} with value '{self.__value}'" )
-        #     logging.error( mako_exc.text_error_template().render() )
-        #     raise
-        #
-        # except:
-        #     logging.exception( f"Command: {self.__command} with value '{self.__value}'" )
-        #     self.__driver.capture_page_screenshot()
-        #     raise
-
-        # if self.__suite.Callback:
-        #     self.__suite.Callback( driver.page_source )
         return
 
     def waitForPageLoadEvent( self, timeout = 5, poll_frequency = 1, browser_breath_delay = 1 ):
