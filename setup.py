@@ -21,23 +21,25 @@ from setuptools import setup, find_packages
 
 
 setup(
-    name            = 'pykeystore',
-    description     = 'Python keystore',
+    name            = 'sel_ide_runner',
+    description     = 'Python Selenium IDE Runner',
     author          = 'Marc Bertens-Nguyen',
-    version         = "1.1.4",
+    version         = "1.0.0",
     author_email    = 'm.bertens@pe2mbs.nl',
-    url             = 'https://github.com/pe2mbs/pykeystore',
-    packages        = find_packages( include = [ 'pykeystore', 'pykeystore.*' ] ),
+    url             = 'https://github.com/pe2mbs/sel_ide_runner',
+    packages        = find_packages( include = [ 'sel_ide_runner', 'sel_ide_runner.*' ] ),
     install_requires= [
-        'cryptography>=39.0.0',
-        'keyring>=23.13.1',
-        'chardet'
+        "PyYAML>=6.0",
+        "robotframework-seleniumlibrary>=6.0.0",
+        "pyotp>=2.8.0",
+        "pykeystore",
+        "Mako>=1.2.4"
     ],
     classifiers = [
         "Programming Language :: Python :: 3",
         "Intended Audience :: Developers",
         "License :: OSI Approved :: GNU General Public License v2 (GPLv2)",
         "Operating System :: OS Independent",
-        "Topic :: Security :: Cryptography"
+
     ]
 )
